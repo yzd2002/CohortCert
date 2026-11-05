@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the accompanying CohortCert manuscript. This is a research artifact release, not a claim of publication or acceptance."
+type: software
+title: "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions — Research Artifacts"
+version: "6-review-20261105"
+date-released: 2026-11-05
+repository-code: "https://github.com/yzd2002/CohortCert"
+authors:
+  - given-names: Zida
+    family-names: Yang
+    orcid: "https://orcid.org/0009-0000-2386-2533"
+    affiliation: "Guanghua School of Management, Peking University"
+  - given-names: Zisheng
+    family-names: Kuang
+    orcid: "https://orcid.org/0009-0004-4129-388X"
+    affiliation: "School of Artificial Intelligence, Guangzhou University"
+  - given-names: Junqin
+    family-names: Chen
+    orcid: "https://orcid.org/0009-0002-5838-1603"
+    affiliation: "School of Artificial Intelligence, Guangzhou University"
+  - given-names: Haobing
+    family-names: Liu
+    orcid: "https://orcid.org/0009-0002-3767-2225"
+    affiliation: "School of Artificial Intelligence, Guangzhou University"
+  - given-names: Guquan
+    family-names: You
+    orcid: "https://orcid.org/0009-0005-5915-7058"
+    affiliation: "Institute of Emergency Safety Innovations, Guangzhou University"
+  - given-names: Yongjun
+    family-names: Dai
+    orcid: "https://orcid.org/0009-0005-7049-2607"
+    affiliation: "School of Artificial Intelligence, Guangzhou University"
+  - given-names: Jiexin
+    family-names: Zheng
+    orcid: "https://orcid.org/0009-0005-5838-0135"
+    affiliation: "Guanghua School of Management, Peking University"
+contact:
+  - given-names: Zida
+    family-names: Yang
+    email: "2401111090@stu.pku.edu.cn"

@@ -1,0 +1,55 @@
+{
+  "schema": "paper-to-reviewer-artifact-binding/v1",
+  "created_UTC": "2026-11-05T19:38:42.124355+00:00",
+  "paper": {
+    "title": "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions",
+    "PDF_sha256": "d28ba2c57c02c44f1045bc0d2e066dabf89094cdf9da7354ae22f3faaaad3358",
+    "frozen_manuscript_manifest_sha256": "db726df162a04bf589f5672f1cc6c360b14b2c73c0754bc049dc0cc212dc7597",
+    "status": "REGULAR SUBMISSION-FORMAT REVIEW CANDIDATE; not yet submitted"
+  },
+  "components": [
+    {
+      "file": "fast_analysis.zip",
+      "bytes": 7212543,
+      "sha256": "aa394e271ae27ceaef5e8cc01729ef933ccd4e06e1a6d4c7a2fa37208c1fb210",
+      "members": 617,
+      "CRC_check": "PASS",
+      "component": "fast_analysis",
+      "manifest_sha256": "452028d10e99ec1aaba30fcf13315bedb355d3656d8c327a3536ef2bfae9d56b",
+      "original_directory": "submission_artifact_current_working_candidate_v2",
+      "author_package_filename": "01_快速分析复现_v2.zip"
+    },
+    {
+      "file": "method_sources.zip",
+      "bytes": 40738264,
+      "sha256": "b74fbf498c0ebc07f2cbbe0d4ea0a41442866e479937d0ceb3d29a0240f25679",
+      "members": 934,
+      "CRC_check": "PASS",
+      "component": "method_sources",
+      "manifest_sha256": "f0d6104b4f72b6bb41e22a1c9f87c9ff4bc6873dff9c23a9addeb41a4c0c16a1",
+      "original_directory": "submission_method_source_supplement_candidate_v1",
+      "author_package_filename": "02_方法源码与主实验固定输入_v1.zip"
+    },
+    {
+      "file": "study_A_identity_addendum.zip",
+      "bytes": 82719,
+      "sha256": "b01ee4e6874dcabf8909cd88710be0388e687b8f5703b61f3e9674de1796e4f8",
+      "members": 9,
+      "CRC_check": "PASS",
+      "component": "study_A_identity_addendum",
+      "manifest_sha256": "729d89e715ef044f6c7ad7008cfb9e08b4da052c4c84eacfcf98d51c3c33c28f",
+      "original_directory": "submission_method_source_supplement_A_identity_addendum_v1",
+      "author_package_filename": "03_A身份输入补档_v1.zip"
+    }
+  ],
+  "root_independent_member_integrity_review_sha256": "285d91ad18fad99444e4fff93b8b12e326dfaa0edee90b093e81a2f5c97412de",
+  "active_MAST_pair": {
+    "summary": "c657e3f68438ff3ce0255495f0057762203cf6fed704c6436f006e152f58840d",
+    "closed": "4787dbf3c7b295af4c58d7b7b8533f5b6591db0867dac10a5c0779c743ce98c0"
+  },
+  "new_numbers_not_from_method_reruns": true,
+  "public_URL": "https://github.com/yzd2002/CohortCert",
+  "EAB_complete": false,
+  "scope": "Verified fast analysis plus archived original method sources and fixed CPU replay inputs. Full Native and live-inference reproduction on a new machine has not been validated.",
+  "public_access_check": "See PUBLIC_ACCESS_VERIFICATION.json, a separate receipt generated after upload. This frozen pre-upload binding makes no access-verification claim."
+}

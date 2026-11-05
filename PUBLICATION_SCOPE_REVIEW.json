@@ -1,0 +1,58 @@
+{
+  "schema": "independent-publication-scope-review/v1",
+  "created_UTC": "2026-11-05T20:09:49.630126+00:00",
+  "reviewer": "/root/submission_v6_requirements_independent_review",
+  "publication_status": "APPROVED_WITH_EXPLICIT_REPRODUCTION_LIMITS",
+  "release_manifest_sha256": "260ffd9daedb2faa8189c14f065c7c8541dcbc6731944b652217065a20a89358",
+  "repository_URL": "https://github.com/yzd2002/CohortCert",
+  "user_authorized_public_release": true,
+  "authorization_basis": "Root relayed the user's explicit authorization to create a dedicated public CohortCert repository and publish this prepared supplement. This reviewer received and inspected no credentials.",
+  "approval_scope": "Only the eight payload files, sizes and SHA-256 identities in the specified release manifest; this is a technical scope and disclosure-consistency review.",
+  "approved_payload_files": [
+    "ARTIFACT_AVAILABILITY.txt",
+    "CITATION.cff",
+    "PAPER_ARTIFACT_BINDING.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "fast_analysis.zip",
+    "method_sources.zip",
+    "study_A_identity_addendum.zip"
+  ],
+  "total_payload_bytes": 48047383,
+  "paper_PDF_sha256": "d28ba2c57c02c44f1045bc0d2e066dabf89094cdf9da7354ae22f3faaaad3358",
+  "paper_manifest_sha256": "db726df162a04bf589f5672f1cc6c360b14b2c73c0754bc049dc0cc212dc7597",
+  "checks": {
+    "all8payload_size_and_SHA256_checks": true,
+    "English_filenames_binding_and_archive_directory_instructions_agree": true,
+    "all3component_manifest_bytes_match_prior_verified_archives": true,
+    "all7SHA256SUMS_entries_agree": true,
+    "CITATION_seven_authors_order_ORCID_and_affiliations_match_manuscript_and_copy_fields": true,
+    "README_availability_and_binding_distinguish_analysis_from_full_method_reproduction": true,
+    "all56_MAST_paths_and_adverse_statuses_preserved_in_disclosures": true,
+    "new_public_text_no_recognized_credential_markers": true,
+    "ZIP_names_no_known_internal_full_scientific_review_or_06_folder": true,
+    "no_private_B_Source192_or_unfinished_followup_result_data_requested_or_decoded": true
+  },
+  "prior_archive_review_sha256": "285d91ad18fad99444e4fff93b8b12e326dfaa0edee90b093e81a2f5c97412de",
+  "credential_check_scope": "Bounded new public text was scanned for recognized token/private-key formats; unchanged ZIP files match the separately reviewed archives. This is not an exhaustive security guarantee.",
+  "reproduction_limits": [
+    "Analysis outputs and closed public audit displays have saved execution evidence. Packaging did not rerun method trajectories.",
+    "Principal CivilComments/GoEmotions CPU replay sources and fixed inputs are archived, but full clean-machine replay was not validated for this release.",
+    "Full Native environment, fresh model inference, every historical experiment and cross-platform execution have not been reproduced.",
+    "Model weights, original provider text corpora, the 703 MB historical package and approximately 8.59 GB raw traces are not bundled.",
+    "Original study-A identities complement the frozen base archive; this does not reset old claims, retries, censors or execution permissions.",
+    "This is not EAB-complete; source, dataset, dependency and license notices and documented gaps remain in force."
+  ],
+  "explicit_non_guarantees": [
+    "Not a legal opinion or blanket copyright/license clearance.",
+    "Not a general security guarantee or universal statistical or machine-coverage proof.",
+    "Not Strong Accept, conference peer review, acceptance, CMT submission, or verification of all authors' profiles/conflicts."
+  ],
+  "post_upload_access_verification": "PENDING separate unauthenticated HTTP/download receipt; this approval does not claim that the URL already serves the payload.",
+  "valid_only_while_payload_manifest_and_members_unchanged": true,
+  "post_publication_receipts_outside_payload_manifest": [
+    "PUBLICATION_SCOPE_REVIEW.json",
+    "PUBLIC_ACCESS_VERIFICATION.json"
+  ],
+  "detailed_local_scope_evidence_sha256": "b0d91a12e0741703e1277b49534e607ba7a00c25ad438be6ddc2da16d5452608"
+}
