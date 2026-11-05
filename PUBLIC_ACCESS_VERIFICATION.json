@@ -1,0 +1,310 @@
+{
+  "schema": "unauthenticated-artifact-full-download-verification/v2",
+  "status": "PASS",
+  "verified_UTC": "2026-11-05T21:20:00.065515+00:00",
+  "repository_URL": "https://github.com/yzd2002/CohortCert",
+  "verified_commit": "d100aee95dbdea3c0307cd1c7556cc3be7f7f3da",
+  "immutable_tree_URL": "https://github.com/yzd2002/CohortCert/tree/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da",
+  "release_manifest_sha256": "260ffd9daedb2faa8189c14f065c7c8541dcbc6731944b652217065a20a89358",
+  "authentication": "No GitHub token, Authorization header, cookies, browser login or credential files used. Process-local AutoDL academic network service used for transport.",
+  "all8payload_files_fully_downloaded_and_SHA256_size_matched": true,
+  "all3ZIPs_CRC_checked": true,
+  "checks": [
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/RELEASE_FILES_SHA256.json",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 1748,
+      "sha256": "260ffd9daedb2faa8189c14f065c7c8541dcbc6731944b652217065a20a89358",
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/ARTIFACT_AVAILABILITY.txt",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 1361,
+      "sha256": "9e1a60e2f169bf60e99634b94aaff64ed2dfd6c0947a88c0588f530bca66dfe9",
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/CITATION.cff",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 1720,
+      "sha256": "3699a28667b1d2ad3493d281feb6647077ba7c3d579ac31b9d7c29402f412860",
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/PAPER_ARTIFACT_BINDING.json",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 2795,
+      "sha256": "a85d1050051b49ff9e350b10dff040f7b93294704066914c420f108dc3bad581",
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/README.md",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 7375,
+      "sha256": "7881df7114f314cb64d530ee1b1eb22795cc6e11414586ca75955e02f195e67f",
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/SHA256SUMS.txt",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 606,
+      "sha256": "b1c9513994aa20a4f63e7d476d986a033dd8d62022c8321c9c39a0cb4b6faaa3",
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/fast_analysis.zip",
+      "transport": "Full successful anonymous download retained from verification v1; size and SHA256 rechecked.",
+      "bytes": 7212543,
+      "sha256": "aa394e271ae27ceaef5e8cc01729ef933ccd4e06e1a6d4c7a2fa37208c1fb210",
+      "authorization_header_sent": false,
+      "cookies_sent": false,
+      "ZIP_CRC": "PASS",
+      "ZIP_members": 617
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/method_sources.zip",
+      "transport": "Unauthenticated HTTP byte-range reassembly with retained v1 prefix, if present; complete final SHA256 checked.",
+      "retained_v1_prefix_bytes": 20856832,
+      "range_responses": [
+        {
+          "name": "method_sources.zip",
+          "start": 20856832,
+          "end": 21905407,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 20856832-21905407/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 21905408,
+          "end": 22953983,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 21905408-22953983/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 22953984,
+          "end": 24002559,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 22953984-24002559/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 24002560,
+          "end": 25051135,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 24002560-25051135/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 25051136,
+          "end": 26099711,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 25051136-26099711/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 26099712,
+          "end": 27148287,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 26099712-27148287/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 27148288,
+          "end": 28196863,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 27148288-28196863/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 28196864,
+          "end": 29245439,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 28196864-29245439/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 29245440,
+          "end": 30294015,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 29245440-30294015/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 30294016,
+          "end": 31342591,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 30294016-31342591/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 31342592,
+          "end": 32391167,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 31342592-32391167/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 32391168,
+          "end": 33439743,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 32391168-33439743/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 33439744,
+          "end": 34488319,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 33439744-34488319/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 34488320,
+          "end": 35536895,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 34488320-35536895/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 35536896,
+          "end": 36585471,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 35536896-36585471/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 36585472,
+          "end": 37634047,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 36585472-37634047/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 37634048,
+          "end": 38682623,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 37634048-38682623/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 38682624,
+          "end": 39731199,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 38682624-39731199/40738264",
+          "bytes": 1048576,
+          "status": "PASS"
+        },
+        {
+          "name": "method_sources.zip",
+          "start": 39731200,
+          "end": 40738263,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 39731200-40738263/40738264",
+          "bytes": 1007064,
+          "status": "PASS"
+        }
+      ],
+      "bytes": 40738264,
+      "sha256": "b74fbf498c0ebc07f2cbbe0d4ea0a41442866e479937d0ceb3d29a0240f25679",
+      "authorization_header_sent": false,
+      "cookies_sent": false,
+      "ZIP_CRC": "PASS",
+      "ZIP_members": 934
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/yzd2002/CohortCert/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da/study_A_identity_addendum.zip",
+      "transport": "Unauthenticated HTTP byte-range reassembly with retained v1 prefix, if present; complete final SHA256 checked.",
+      "retained_v1_prefix_bytes": 0,
+      "range_responses": [
+        {
+          "name": "study_A_identity_addendum.zip",
+          "start": 0,
+          "end": 82718,
+          "attempt": 1,
+          "HTTP_status": 206,
+          "Content_Range": "bytes 0-82718/82719",
+          "bytes": 82719,
+          "status": "PASS"
+        }
+      ],
+      "bytes": 82719,
+      "sha256": "b01ee4e6874dcabf8909cd88710be0388e687b8f5703b61f3e9674de1796e4f8",
+      "authorization_header_sent": false,
+      "cookies_sent": false,
+      "ZIP_CRC": "PASS",
+      "ZIP_members": 9
+    },
+    {
+      "URL": "https://github.com/yzd2002/CohortCert/tree/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da",
+      "final_URL": "https://github.com/yzd2002/CohortCert/tree/d100aee95dbdea3c0307cd1c7556cc3be7f7f3da",
+      "HTTP_status": 200,
+      "repository_file_listing_visible": true,
+      "authorization_header_sent": false,
+      "cookies_sent": false
+    }
+  ],
+  "range_attempts_file": "RANGE_ATTEMPTS.json",
+  "previous_failed_downloads_retained": "public_repository_download_verification_v1",
+  "elapsed_wall_seconds": 87.74199413135648,
+  "scope": "Anonymous public access and complete-file integrity at the recorded time. Byte ranges are transport recovery, not new experimental runs. Not full-method, EAB or scientific-acceptance validation."
+}
