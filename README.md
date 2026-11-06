@@ -1,10 +1,18 @@
-# CohortCert artifacts
+# CohortCert: shared evidence and proof costs
 
-Materials for **CohortCert: Shared Evidence and Proof Costs for Cohort Decisions**.
+[Current manuscript (PDF)](paper/CohortCert_ICDE2027_Final.pdf) · [Complete LaTeX source](paper/CohortCert_LaTeX_Source.zip) · [Authors and affiliations](authors.csv)
 
-This release contains executable analysis scripts, original method sources, fixed inputs for the principal CPU replay studies, and the closed public audit underlying the MAST table. The exact manuscript and component manifests are identified in [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json). This release binds the final Regular manuscript (12 body pages, 14 total pages) by PDF SHA-256. It includes a new finite-diagnostics addendum and final figure/table mapping; it has not been submitted to CMT.
+**Zida Yang, Zisheng Kuang, Guquan You, Yongjun Dai, Junqin Chen, Haobing Liu, Jiexin Zheng, Zhangxuan Shi, Xiaolong Shi.**
 
-The frozen component READMEs record their status at capture, before public-release authorization and repository creation. The current outer binding and [final-version access receipt](FINAL_PUBLIC_ACCESS_VERIFICATION.json) describe this release. The retained [historical access receipt](PUBLIC_ACCESS_VERIFICATION.json) covers the preceding immutable release; neither receipt changes the components' scientific scope.
+The first four authors share first authorship. **Xiaolong Shi is the sole corresponding author** (xlshi@gzhu.edu.cn). The current nine-author manuscript has 12 body pages and 14 total pages, 35 references, an explicit executor algorithm, and a fixed evidence link. This repository is a Regular Research Paper supplement; it makes no claim of conference acceptance.
+
+## Current paper and fixed evidence
+
+The manuscript PDF SHA-256 is `cea9a046eaa3b98297147bc91a16a86b894f1b52fdd51e0ef0e47bd8b49d21ae`. [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds that exact PDF, its complete source, the current author list, and the unchanged four evidence archives. [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) and [SHA256SUMS.txt](SHA256SUMS.txt) identify the current downloadable payload.
+
+This is a readability and authorship revision. Implementations, experimental inputs, numerical results and all six supplied vector figures are unchanged. The PDF footnote pins evidence snapshot [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1); the current repository additionally supplies this nine-author paper and updated citation metadata. The preceding release's README, citation, binding and checksum files are preserved under [history/aae1e7b](history/aae1e7b). Earlier access receipts remaining at the repository root describe their explicitly recorded historical snapshots.
+
+The frozen component READMEs retain their capture-time status. Use the current outer binding for paper identity and the component notices for scientific reproduction scope. Internal reviews, personal CMT/COI declarations and submission-administration files are excluded from this repository.
 
 ## Start here
 
@@ -80,4 +88,4 @@ Preserve each component's `LICENSE_NOTICES.txt`, dataset citations and dependenc
 
 The public release contains reproducibility materials. Author-specific CMT declarations, internal scientific reviews and submission administration documents belong to the separate local submission folder and are excluded.
 
-Contact: Zida Yang, 2401111090@stu.pku.edu.cn.
+Corresponding author: Xiaolong Shi, xlshi@gzhu.edu.cn.

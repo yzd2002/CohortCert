@@ -1,0 +1,11 @@
+Artifact availability for the Regular Research submission
+
+The public supplement provides analysis scripts and fixed public results for the manuscript tables, five main figures and the supplemental runtime plot; original method, control and audit sources; and the fixed inputs required by the principal CivilComments/GoEmotions CPU replay routes. Each archive has a SHA-256 manifest and a limited-scope integrity entry point. The exact manuscript PDF and component identities are recorded in PAPER_ARTIFACT_BINDING.json.
+
+The current MAST presentation uses the single admitted amended audit, preserving all 56 paths and its original audit history. Four censored paths remain unknown; two scientific-error histories remain uncredited even though their assertions are correct. No method trajectory was rerun for the amendment or the packaging task.
+
+Full Native execution on a new environment, fresh model inference and complete reproduction of every historical experiment have not been validated. External code, model and provider-data requirements and historical raw-trace omissions are documented rather than represented as bundled or successfully rerun. These materials should not be described as EAB-complete.
+
+Repository: https://github.com/yzd2002/CohortCert. The final immutable snapshot and verification time are recorded in FINAL_PUBLIC_ACCESS_VERIFICATION.json after publication. The retained PUBLIC_ACCESS_VERIFICATION.json describes the preceding immutable release.
+
+Final manuscript addendum: final_diagnostics.zip supplies the scoped synthetic construction, exhaustive N=100 logical-interface state evidence, a no-dependency arithmetic reproduction entry point, and the unchanged supplemental runtime plot. Final manuscript/item identities are in PAPER_ARTIFACT_BINDING.json and FINAL_PAPER_TO_ARTIFACT.csv. These additions do not close the documented full-method/EAB reproduction gaps.

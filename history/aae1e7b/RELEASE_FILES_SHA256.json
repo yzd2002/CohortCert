@@ -1,0 +1,70 @@
+{
+  "schema": "final-reviewer-public-release-payload/v2",
+  "created_UTC": "2026-11-06T00:04:46.737512+00:00",
+  "repository_URL": "https://github.com/yzd2002/CohortCert",
+  "paper_PDF_sha256": "3d5f0087184ae9f682e9c34bf1d12b5ac1414becef621b859dc0030c9aefc8dc",
+  "files": [
+    {
+      "path": "ARTIFACT_AVAILABILITY.txt",
+      "bytes": 1900,
+      "sha256": "8d3cf9723def91b7e92519e4808faea8872da2e041a5a37addc48c714e8b6441"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1717,
+      "sha256": "f251fa45e93c5e1a8fd2bcdc9c829b46d709478176936319f0634fab429694d9"
+    },
+    {
+      "path": "FINAL_PAPER_TO_ARTIFACT.csv",
+      "bytes": 1650,
+      "sha256": "b2513cfe213c2d0e863d272305c21c2972e179c2cc071e3e5d3e7a40635157a3"
+    },
+    {
+      "path": "PAPER_ARTIFACT_BINDING.json",
+      "bytes": 3734,
+      "sha256": "674523361e4a1a4ece90e5a7ae414d5207524ff8b45b0db806d5b68ee2d2e17d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8739,
+      "sha256": "56b3462e648d499dec7549b2fa6899c32934dab247403ac033b12567d9b9917b"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 788,
+      "sha256": "281029bb1aa6449a700fb8847a215426a395ad9e0852d5ba6063727285df8b0b"
+    },
+    {
+      "path": "fast_analysis.zip",
+      "bytes": 7212543,
+      "sha256": "aa394e271ae27ceaef5e8cc01729ef933ccd4e06e1a6d4c7a2fa37208c1fb210"
+    },
+    {
+      "path": "final_diagnostics.zip",
+      "bytes": 400102,
+      "sha256": "e97dd9d7c9fa8df50983d41cd1a9e83696e3d431e342b004ad6792b16de3e87b"
+    },
+    {
+      "path": "method_sources.zip",
+      "bytes": 40738264,
+      "sha256": "b74fbf498c0ebc07f2cbbe0d4ea0a41442866e479937d0ceb3d29a0240f25679"
+    },
+    {
+      "path": "study_A_identity_addendum.zip",
+      "bytes": 82719,
+      "sha256": "b01ee4e6874dcabf8909cd88710be0388e687b8f5703b61f3e9674de1796e4f8"
+    }
+  ],
+  "historical_access_receipt": "PUBLIC_ACCESS_VERIFICATION.json covers preceding immutable version only",
+  "excluded_later_access_receipt": "FINAL_PUBLIC_ACCESS_VERIFICATION.json",
+  "no_author_administration_internal_scientific_reviews_or_credentials_in_payload": true,
+  "full_method_or_EAB_complete": false,
+  "retained_historical_post_publication_records": [
+    "PUBLICATION_SCOPE_REVIEW.json",
+    "PUBLIC_ACCESS_VERIFICATION.json"
+  ],
+  "excluded_later_review_and_access_records": [
+    "FINAL_PUBLIC_PAYLOAD_SCOPE_CHECK.json",
+    "FINAL_PUBLIC_ACCESS_VERIFICATION.json"
+  ]
+}

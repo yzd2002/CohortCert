@@ -4,7 +4,7 @@ Figure 2,Natural cohort overlap,fast_analysis.zip,fig_natural_overlap_v2.pdf,Met
 Figure 3,Whole-request completion,fast_analysis.zip,fig_completion_v3.pdf,Unchanged planned-unit results
 Figure 4,Sharing mechanisms,fast_analysis.zip,fig_mechanisms_v3.pdf,Unchanged fixed-evidence interventions
 Figure 5,Checked oracle bracket,fast_analysis.zip,fig_oracle_v2.pdf,"Band is deterministic cost-bound uncertainty, not a statistical CI"
-Table I / Section III-E,Constructed proof-family boundary,final_diagnostics.zip,submission_final_diagnostics_v1/synthetic/FINAL_MANUSCRIPT_EXAMPLE.tex,205 specified-family exact;197 same-contract feasible;171 changed-contract feasible
+Table I / Section III-F,Constructed proof-family boundary,final_diagnostics.zip,submission_final_diagnostics_v1/synthetic/FINAL_MANUSCRIPT_EXAMPLE.tex,205 specified-family exact;197 same-contract feasible;171 changed-contract feasible
 Table II,Primary nonranking results,fast_analysis.zip,generated_primary_table.tex,Same 13 rows/65 reported fields; title and numbering updated outside frozen archive
 Table III,Semantic references,fast_analysis.zip,generated_semantic_table.tex,Same saved results
 Table IV,Fixed MAST request,fast_analysis.zip,MAST/mast_audited_publication_outputs/,Active50complete2errors4unknown; original histories retained
