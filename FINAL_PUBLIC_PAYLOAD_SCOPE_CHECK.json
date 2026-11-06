@@ -1,0 +1,110 @@
+{
+  "schema": "cohortcert-public-payload-technical-scope-check/v1",
+  "status": "PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "reviewed_UTC": "2026-11-06T00:06:58.640906+00:00",
+  "review_type": "Local payload integrity, provenance binding, documentation scope, and deterministic finite arithmetic",
+  "release_manifest": {
+    "file": "RELEASE_FILES_SHA256.json",
+    "sha256": "453b311993b9f7b4c8c5ffafeea47bca923e6edba09a9716d9a74110d6a26ecb",
+    "listed_file_count": 10,
+    "all_sizes_and_SHA256_match": true,
+    "SHA256SUMS_consistent": true
+  },
+  "paper_binding": {
+    "PDF_sha256": "3d5f0087184ae9f682e9c34bf1d12b5ac1414becef621b859dc0030c9aefc8dc",
+    "manuscript_manifest_sha256": "fb2b054e17b235972ea93488f2cce7d1eae5597a55738468f1abb8e5a3db35f0",
+    "root_binding_and_addendum_provenance_agree": true,
+    "body_pages": 12,
+    "total_pages": 14
+  },
+  "components": [
+    {
+      "file": "fast_analysis.zip",
+      "bytes": 7212543,
+      "sha256": "aa394e271ae27ceaef5e8cc01729ef933ccd4e06e1a6d4c7a2fa37208c1fb210",
+      "ZIP_member_count": 617,
+      "CRC_check": "PASS",
+      "unchanged_previously_admitted_component": true
+    },
+    {
+      "file": "method_sources.zip",
+      "bytes": 40738264,
+      "sha256": "b74fbf498c0ebc07f2cbbe0d4ea0a41442866e479937d0ceb3d29a0240f25679",
+      "ZIP_member_count": 934,
+      "CRC_check": "PASS",
+      "unchanged_previously_admitted_component": true
+    },
+    {
+      "file": "study_A_identity_addendum.zip",
+      "bytes": 82719,
+      "sha256": "b01ee4e6874dcabf8909cd88710be0388e687b8f5703b61f3e9674de1796e4f8",
+      "ZIP_member_count": 9,
+      "CRC_check": "PASS",
+      "unchanged_previously_admitted_component": true
+    },
+    {
+      "file": "final_diagnostics.zip",
+      "bytes": 400102,
+      "sha256": "e97dd9d7c9fa8df50983d41cd1a9e83696e3d431e342b004ad6792b16de3e87b",
+      "ZIP_member_count": 30,
+      "CRC_check": "PASS",
+      "unchanged_previously_admitted_component": false
+    }
+  ],
+  "final_diagnostics": {
+    "member_manifest_sha256": "776b487ce02d7e146094f596c8f73a598e807f5e007447f4898bc5306165cb00",
+    "listed_members": 29,
+    "ZIP_members_including_manifest": 30,
+    "all_listed_member_sizes_and_hashes_match": true,
+    "preextracted_and_ZIP_bytes_identical": true,
+    "safe_relative_paths": true,
+    "portable_entrypoint_sha256": "b122ca76af5b242c7039e1f3209dac9864a6eda4bf60d021b44948d1be888e3f",
+    "portable_entrypoint_execution": "PASS_FINITE_DIAGNOSTICS",
+    "executed_in_new_output_directory": true,
+    "standard_library_only": true,
+    "thread_caps": 1,
+    "niceness": 10,
+    "synthetic_costs": [
+      205,
+      197,
+      171
+    ],
+    "Beta11_count_states_recalculated": 9216,
+    "logical_interface_all_states": 5151,
+    "logical_interface_proper_prefix_states": 5049,
+    "logical_interface_proper_prefix_losses": 94,
+    "directed_interface_losses": 0,
+    "reproduced_summary_sha256": "1f1a3b292ea58960a8a25375713d07ff76273ea3ad060fedca36ee8da9a2b1bd"
+  },
+  "mapping_and_documentation": {
+    "mapping_rows": 11,
+    "all_location_or_search_keys_found": true,
+    "five_main_figures_plus_supplemental_runtime_identified": true,
+    "supplemental_runtime_plot_byte_identical_to_frozen_manuscript_source": true,
+    "205_specified_family_197_same_contract_171_changed_contract_distinguished": true,
+    "94_of_5049_declared_state_cardinality_not_empirical_error_rate": true,
+    "finite_construction_distinguished_from_MAST_request": true,
+    "historical_vs_final_access_receipts_distinguished": true,
+    "record_identity_archive_reference_correct": true,
+    "citation_version": "final-20261106"
+  },
+  "public_content_scope": {
+    "changed_root_documents_and_new_addendum_texts_screened": true,
+    "credentials_or_private_author_administration_detected": false,
+    "whole_paper_review_transcript_or_assigned_scientific_rating_in_new_files_detected": false,
+    "unchanged_three_base_archives_inherited_by_exact_previous_SHA256": true,
+    "screening_limit": "Targeted pattern screening and manual scope inspection; unchanged base components retain their prior admission scope."
+  },
+  "limits": {
+    "no_new_method_or_native_execution": true,
+    "no_real_CI_implementation_calls": true,
+    "no_model_calls": true,
+    "no_external_dataset_or_RNG_calls": true,
+    "no_full_method_or_EAB_complete_claim": true,
+    "no_coverage_calibration_or_universal_optimality_claim": true,
+    "no_new_timings": true,
+    "public_remote_unauthenticated_access_checked_in_this_review": false,
+    "publication_and_final_URL_receipt_required_separately": true
+  },
+  "scope_statement": "The new executable reproduces finite arithmetic and selected saved mathematical-state fields only. It does not replay original methods, validate every archived synthetic CSV field, reproduce all historical experiments, or establish full end-to-end/EAB reproducibility."
+}

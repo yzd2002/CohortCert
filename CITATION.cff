@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use these materials, please cite the accompanying CohortCert manuscript. This is a research artifact release, not a claim of publication or acceptance."
 type: software
 title: "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions — Research Artifacts"
-version: "6-review-20261105"
-date-released: 2026-11-05
+version: "final-20261106"
+date-released: 2026-11-06
 repository-code: "https://github.com/yzd2002/CohortCert"
 authors:
   - given-names: Zida

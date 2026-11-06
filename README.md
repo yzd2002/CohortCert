@@ -2,13 +2,13 @@
 
 Materials for **CohortCert: Shared Evidence and Proof Costs for Cohort Decisions**.
 
-This release contains executable analysis scripts, original method sources, fixed inputs for the principal CPU replay studies, and the closed public audit underlying the MAST table. The exact manuscript and component manifests are identified in [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json). The associated manuscript is a submission-format review candidate; a later submission must identify its own final PDF and matching artifact version.
+This release contains executable analysis scripts, original method sources, fixed inputs for the principal CPU replay studies, and the closed public audit underlying the MAST table. The exact manuscript and component manifests are identified in [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json). This release binds the final Regular manuscript (12 body pages, 14 total pages) by PDF SHA-256. It includes a new finite-diagnostics addendum and final figure/table mapping; it has not been submitted to CMT.
 
-The frozen component READMEs record their status at capture, before public-release authorization and repository creation. The current outer binding and the post-upload [public-access receipt](PUBLIC_ACCESS_VERIFICATION.json) describe publication status without changing those components' scientific scope.
+The frozen component READMEs record their status at capture, before public-release authorization and repository creation. The current outer binding and [final-version access receipt](FINAL_PUBLIC_ACCESS_VERIFICATION.json) describe this release. The retained [historical access receipt](PUBLIC_ACCESS_VERIFICATION.json) covers the preceding immutable release; neither receipt changes the components' scientific scope.
 
 ## Start here
 
-Download and extract the three archives into the same parent directory. Their original internal directory names are retained so that archived provenance and manifests remain valid.
+Download and extract the four archives into the same parent directory. Their original internal directory names are retained so that archived provenance and manifests remain valid.
 
 Download checksums are provided in `SHA256SUMS.txt`; on Linux, `sha256sum -c SHA256SUMS.txt` checks the release payload after all listed files have been downloaded.
 
@@ -17,8 +17,9 @@ Download checksums are provided in `SHA256SUMS.txt`; on Linux, `sha256sum -c SHA
 | [fast_analysis.zip](fast_analysis.zip) | Main-table and summary analysis, six scientific figures, seven-configuration MAST presentation, fixed public inputs and saved outputs | Analysis outputs checked against the manuscript; current MAST presentation executed and checked against the admitted audit |
 | [method_sources.zip](method_sources.zip) | 542 original Python source files, method/control/audit entry points, 24 fixed CivilComments/GoEmotions CPU-study inputs including saved label maps and embeddings, and original study-A inputs | Source and fixed-input identities checked; methods were not rerun as part of packaging |
 | [study_A_identity_addendum.zip](study_A_identity_addendum.zip) | Original study-A record identities and their provenance | Complements the base method archive without modifying its frozen manifest |
+| [final_diagnostics.zip](final_diagnostics.zip) | Separate synthetic 205/197/171 construction, N=100 logical-interface enumeration, stdlib reproduction entry point, and supplemental runtime plot | Original finite evidence independently checked; final portable entry point executed without external dependencies |
 
-The last archive resolves the **record-identity file** omission described in the historically frozen base-source README. Keep both archives: the base contains the original A labels/ranks; the addendum contains the matching record identities. This archival combination does not reset any historical execution permission or fill censored paths.
+The `study_A_identity_addendum.zip` archive resolves the **record-identity file** omission described in the historically frozen base-source README. Keep both archives: the base contains the original A labels/ranks; the addendum contains the matching record identities. This archival combination does not reset any historical execution permission or fill censored paths.
 
 ## Quick start: analysis and integrity
 
@@ -48,9 +49,20 @@ cd ../submission_method_source_supplement_A_identity_addendum_v1
 python3 -B verify_archive.py
 ```
 
+## Final diagnostics
+
+After extracting `final_diagnostics.zip`, run:
+
+```sh
+cd submission_final_diagnostics_v1
+python3 -B reproduce_diagnostics.py --out reviewer_results_01
+```
+
+This recalculates the final finite quantities without model, CI-library, dataset or random-number calls. The synthetic task differs from the fixed MAST request: 205 is exact only in the specified family, 197 is a same-task OR-certificate upper bound, and 171 changes the threshold. The 94/5,049 logical-interface result counts deterministic states, not empirical error rates. The original six figures remain available in the base archive; the final main text has five figures and the former runtime figure is supplemental.
+
 ## Relating files to the paper
 
-- `fast_analysis` includes `PAPER_TO_ARTIFACT.csv` and the fixed main, GoEmotions and semantic-reference table inputs. The main table contains 13 rows and 65 reported numeric fields.
+- [FINAL_PAPER_TO_ARTIFACT.csv](FINAL_PAPER_TO_ARTIFACT.csv) supersedes the historically frozen numbering/binding in the component archives. `fast_analysis` includes its original `PAPER_TO_ARTIFACT.csv` and the fixed main, GoEmotions and semantic-reference table inputs. The main table contains 13 rows and 65 reported numeric fields.
 - Its `MAST` directory contains the presentation code and outputs. The unique active audit has **50 verified-complete, 2 scientific-error and 4 unknown paths**, retaining all 56 planned paths. NativeProgressive credits **5/8** at budget 300. Costs are conditional on credited completions, not unconditional latency or model-forward estimates.
 - The original **45 complete / 11 unknown** audit is retained as history. The amended audit deterministically reverified the same trajectories with the original CI implementation available in its intended import context; it did not rerun acquisitions or choose between old and new outcomes.
 - Both retained error histories contain a true-count exclusion although their online and final assertions are correct. Saved-value diagnostics explain the binary64 logical-cap/count-projection mechanism. They are not risk calibration or a refutation of the real-arithmetic statistical method.

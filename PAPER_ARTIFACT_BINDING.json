@@ -1,11 +1,13 @@
 {
-  "schema": "paper-to-reviewer-artifact-binding/v1",
-  "created_UTC": "2026-11-05T19:38:42.124355+00:00",
+  "schema": "final-paper-to-reviewer-artifact-binding/v2",
+  "created_UTC": "2026-11-06T00:00:52.027307+00:00",
   "paper": {
     "title": "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions",
-    "PDF_sha256": "d28ba2c57c02c44f1045bc0d2e066dabf89094cdf9da7354ae22f3faaaad3358",
-    "frozen_manuscript_manifest_sha256": "db726df162a04bf589f5672f1cc6c360b14b2c73c0754bc049dc0cc212dc7597",
-    "status": "REGULAR SUBMISSION-FORMAT REVIEW CANDIDATE; not yet submitted"
+    "PDF_sha256": "3d5f0087184ae9f682e9c34bf1d12b5ac1414becef621b859dc0030c9aefc8dc",
+    "frozen_manuscript_manifest_sha256": "fb2b054e17b235972ea93488f2cce7d1eae5597a55738468f1abb8e5a3db35f0",
+    "status": "FINAL REGULAR MANUSCRIPT; not yet submitted",
+    "body_pages": 12,
+    "total_pages": 14
   },
   "components": [
     {
@@ -40,6 +42,17 @@
       "manifest_sha256": "729d89e715ef044f6c7ad7008cfb9e08b4da052c4c84eacfcf98d51c3c33c28f",
       "original_directory": "submission_method_source_supplement_A_identity_addendum_v1",
       "author_package_filename": "03_A身份输入补档_v1.zip"
+    },
+    {
+      "file": "final_diagnostics.zip",
+      "bytes": 400102,
+      "sha256": "e97dd9d7c9fa8df50983d41cd1a9e83696e3d431e342b004ad6792b16de3e87b",
+      "members": 30,
+      "CRC_check": "PASS",
+      "component": "final_finite_diagnostics",
+      "manifest_sha256": "776b487ce02d7e146094f596c8f73a598e807f5e007447f4898bc5306165cb00",
+      "original_directory": "submission_final_diagnostics_v1",
+      "author_package_filename": "04_最终数值诊断与构造例_v1.zip"
     }
   ],
   "root_independent_member_integrity_review_sha256": "285d91ad18fad99444e4fff93b8b12e326dfaa0edee90b093e81a2f5c97412de",
@@ -51,5 +64,8 @@
   "public_URL": "https://github.com/yzd2002/CohortCert",
   "EAB_complete": false,
   "scope": "Verified fast analysis plus archived original method sources and fixed CPU replay inputs. Full Native and live-inference reproduction on a new machine has not been validated.",
-  "public_access_check": "See PUBLIC_ACCESS_VERIFICATION.json, a separate receipt generated after upload. This frozen pre-upload binding makes no access-verification claim."
+  "public_access_check": "Final-version anonymous verification receipt is added after upload; the historical PUBLIC_ACCESS_VERIFICATION.json documents only the earlier immutable release.",
+  "final_item_mapping": "FINAL_PAPER_TO_ARTIFACT.csv",
+  "preserved_archives_from_commit": "62f2b1eaa521d94f59fd98f210921ed1975d556e",
+  "final_scope": "The added diagnostics are finite arithmetic and a separate synthetic construction. No unfinished Source-S/B data, new full-method or Native/model reruns are included. Runtime plot moved to supplement; all original runtime results remain in main text."
 }
