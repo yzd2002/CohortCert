@@ -2,15 +2,15 @@
 
 [Current manuscript (PDF)](paper/CohortCert_ICDE2027_Final.pdf) · [Complete LaTeX source](paper/CohortCert_LaTeX_Source.zip) · [Authors and affiliations](authors.csv)
 
-**Zida Yang, Zisheng Kuang, Guquan You, Yongjun Dai, Junqin Chen, Haobing Liu, Jiexin Zheng, Zhangxuan Shi, Xiaolong Shi.**
+**Zida Yang, Zisheng Kuang, Guquan You, Yongjun Dai, Junqin Chen, Haobing Liu, Jiexin Zheng, Cong Wang, Zhangxuan Shi, Xiaolong Shi.**
 
-The first four authors share first authorship. **Xiaolong Shi is the sole corresponding author** (xlshi@gzhu.edu.cn). The current nine-author manuscript has 12 body pages and 14 total pages, 35 references, an explicit executor algorithm, and a fixed evidence link. This repository is a Regular Research Paper supplement; it makes no claim of conference acceptance.
+The first four authors share first authorship. **Xiaolong Shi is the sole corresponding author** (xlshi@gzhu.edu.cn). The current ten-author manuscript has 12 body pages and 14 total pages, 35 references, an explicit executor algorithm, and a fixed evidence link. This repository is a Regular Research Paper supplement; it makes no claim of conference acceptance.
 
 ## Current paper and fixed evidence
 
-The manuscript PDF SHA-256 is `cea9a046eaa3b98297147bc91a16a86b894f1b52fdd51e0ef0e47bd8b49d21ae`. [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds that exact PDF, its complete source, the current author list, and the unchanged four evidence archives. [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) and [SHA256SUMS.txt](SHA256SUMS.txt) identify the current downloadable payload.
+The manuscript PDF SHA-256 is `b5f6b1852d21e56864ad0cbe80c1996a7840b733746af294cfa67da0d143088d`. [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds that exact PDF, its complete source, the current author list, and the unchanged four evidence archives. [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) and [SHA256SUMS.txt](SHA256SUMS.txt) identify the current downloadable payload.
 
-This is a readability and authorship revision. Implementations, experimental inputs, numerical results and all six supplied vector figures are unchanged. The PDF footnote pins evidence snapshot [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1); the current repository additionally supplies this nine-author paper and updated citation metadata. The preceding release's README, citation, binding and checksum files are preserved under [history/aae1e7b](history/aae1e7b). Earlier access receipts remaining at the repository root describe their explicitly recorded historical snapshots.
+This author-list revision inserts Cong Wang as ordinary author eight, after Jiexin Zheng. The preceding nine-author manuscript remains available at commit `d3b925e16f4823c46b6fa68e929be50237c54a66`. Implementations, experimental inputs, numerical results and all six supplied vector figures are unchanged. The PDF footnote pins evidence snapshot [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1); the current repository additionally supplies this ten-author paper and updated citation metadata. The preceding release's README, citation, binding and checksum files are preserved under [history/aae1e7b](history/aae1e7b). Earlier access receipts remaining at the repository root describe their explicitly recorded historical snapshots.
 
 The frozen component READMEs retain their capture-time status. Use the current outer binding for paper identity and the component notices for scientific reproduction scope. Internal reviews, personal CMT/COI declarations and submission-administration files are excluded from this repository.
 

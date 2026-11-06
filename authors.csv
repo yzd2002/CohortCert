@@ -6,5 +6,6 @@ order,given_name,family_name,chinese_name,email,ORCID,affiliation,equal_first,co
 5,Junqin,Chen,陈俊钦,32606500158@e.gzhu.edu.cn,0009-0002-5838-1603,"School of Artificial Intelligence, Guangzhou University, Guangzhou, China",False,False
 6,Haobing,Liu,刘浩冰,32507700080@e.gzhu.edu.cn,0009-0002-3767-2225,"School of Artificial Intelligence, Guangzhou University, Guangzhou, China",False,False
 7,Jiexin,Zheng,郑杰鑫,jiexinzheng@gsm.pku.edu.cn,0009-0005-5838-0135,"Guanghua School of Management, Peking University, Beijing, China",False,False
-8,Zhangxuan,Shi,,shizhx25@mail2.sysu.edu.cn,0009-0006-7728-7128,"Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China",False,False
-9,Xiaolong,Shi,石小龙,xlshi@gzhu.edu.cn,0000-0002-1838-8643,"Research Institute of Computing Science and Technology, Guangzhou University, Guangzhou, China",False,True
+8,Cong,Wang,王聪,wangcong@gsm.pku.edu.cn,0000-0002-5300-0122,"Guanghua School of Management, Peking University, Beijing, China",False,False
+9,Zhangxuan,Shi,,shizhx25@mail2.sysu.edu.cn,0009-0006-7728-7128,"Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China",False,False
+10,Xiaolong,Shi,石小龙,xlshi@gzhu.edu.cn,0000-0002-1838-8643,"Research Institute of Computing Science and Technology, Guangzhou University, Guangzhou, China",False,True

@@ -1,18 +1,18 @@
 {
-  "schema": "CohortCert-nine-author-public-release-files/v3",
-  "created_UTC": "2026-11-06T20:41:13.740212+00:00",
-  "paper_PDF_sha256": "cea9a046eaa3b98297147bc91a16a86b894f1b52fdd51e0ef0e47bd8b49d21ae",
+  "schema": "CohortCert-ten-author-public-release-files/v4",
+  "created_UTC": "2026-11-06T21:23:08.439968+00:00",
+  "paper_PDF_sha256": "b5f6b1852d21e56864ad0cbe80c1996a7840b733746af294cfa67da0d143088d",
   "evidence_parent_commit": "aae1e7b071906d12c11f3eb230b9aee981f8adc1",
   "files": [
     {
       "path": "ARTIFACT_AVAILABILITY.txt",
-      "bytes": 1277,
-      "sha256": "1f899d165f3d2bc8a60b70d5d5b15b0e0741ccb80ae0762b1c431a87fd5a3a00"
+      "bytes": 1276,
+      "sha256": "8e2b56af9c5025ad68d9ff5fad67edf54c171d0e7f3fad949f24377fbc037aef"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 2522,
-      "sha256": "90696227e9afe4bc034b28e1d85053160e21e1cc53e0fd3877cfd948bd2bb563"
+      "bytes": 2615,
+      "sha256": "e444f31be3944be09584fd54126f66656cfdf56e5751395caa85b1535d5c12fd"
     },
     {
       "path": "FINAL_PAPER_TO_ARTIFACT.csv",
@@ -21,59 +21,54 @@
     },
     {
       "path": "PAPER_ARTIFACT_BINDING.json",
-      "bytes": 5652,
-      "sha256": "4b3f3ea473ead64de89f2bf73f97a54b5ce0fe479409a703f3679d70a0fffe14"
+      "bytes": 6205,
+      "sha256": "00da994f3a942044a18d11eea8e98b469ce8f86141392513d4384cd57703e6df"
     },
     {
       "path": "README.md",
-      "bytes": 9778,
-      "sha256": "784f5fc649ce7e510206c27e49a33e13e022d52027b51c82d0b739dbfdd606ff"
+      "bytes": 9939,
+      "sha256": "5e27dc2a258baa21ab75cafe178b46c29076bb12031edb7df4f28976e4b7a5e5"
     },
     {
       "path": "SHA256SUMS.txt",
       "bytes": 1068,
-      "sha256": "6bafe03a5bb551c6cef92f363b75a963cb42398452b833e35e2a3d6d59e2c17d"
+      "sha256": "347b1faf4e52c3c0e37b388f934d4ae7c81c54d23556b48a40d6d0f25f7bc44d"
     },
     {
       "path": "authors.csv",
-      "bytes": 1531,
-      "sha256": "2728e8dbc779bcc2006b74180c0170dffbdbaeee6a56c705543b938091a9e20d"
+      "bytes": 1675,
+      "sha256": "da35900ddb08eaec039f6163f407b47d0c50c3c541d612ebdd71f3da4491511a"
     },
     {
       "path": "fast_analysis.zip",
       "bytes": 7212543,
-      "sha256": "aa394e271ae27ceaef5e8cc01729ef933ccd4e06e1a6d4c7a2fa37208c1fb210",
-      "unchanged_from_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1"
+      "sha256": "aa394e271ae27ceaef5e8cc01729ef933ccd4e06e1a6d4c7a2fa37208c1fb210"
     },
     {
       "path": "final_diagnostics.zip",
       "bytes": 400102,
-      "sha256": "e97dd9d7c9fa8df50983d41cd1a9e83696e3d431e342b004ad6792b16de3e87b",
-      "unchanged_from_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1"
+      "sha256": "e97dd9d7c9fa8df50983d41cd1a9e83696e3d431e342b004ad6792b16de3e87b"
     },
     {
       "path": "method_sources.zip",
       "bytes": 40738264,
-      "sha256": "b74fbf498c0ebc07f2cbbe0d4ea0a41442866e479937d0ceb3d29a0240f25679",
-      "unchanged_from_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1"
+      "sha256": "b74fbf498c0ebc07f2cbbe0d4ea0a41442866e479937d0ceb3d29a0240f25679"
     },
     {
       "path": "paper/CohortCert_ICDE2027_Final.pdf",
-      "bytes": 516590,
-      "sha256": "cea9a046eaa3b98297147bc91a16a86b894f1b52fdd51e0ef0e47bd8b49d21ae"
+      "bytes": 516685,
+      "sha256": "b5f6b1852d21e56864ad0cbe80c1996a7840b733746af294cfa67da0d143088d"
     },
     {
       "path": "paper/CohortCert_LaTeX_Source.zip",
-      "bytes": 303665,
-      "sha256": "9f3b3422556132ca7bfbf3a45b10f3c3052cfb1aba632e5aa4af38cbce5e5b3d"
+      "bytes": 303778,
+      "sha256": "1947ec70900fd42ae69f9ff1a2fecd52e90a6a7b2e4df092fbbaea0965865ab1"
     },
     {
       "path": "study_A_identity_addendum.zip",
       "bytes": 82719,
-      "sha256": "b01ee4e6874dcabf8909cd88710be0388e687b8f5703b61f3e9674de1796e4f8",
-      "unchanged_from_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1"
+      "sha256": "b01ee4e6874dcabf8909cd88710be0388e687b8f5703b61f3e9674de1796e4f8"
     }
   ],
-  "manifest_self_excluded": true,
-  "historical_metadata_preserved_separately": true
+  "manifest_self_excluded": true
 }

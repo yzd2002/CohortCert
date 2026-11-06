@@ -1,12 +1,12 @@
 {
-  "schema": "CohortCert-current-nine-author-paper-public-artifact-binding/v3",
-  "created_UTC": "2026-11-06T20:41:13.731438+00:00",
+  "schema": "CohortCert-current-ten-author-paper-public-artifact-binding/v4",
+  "created_UTC": "2026-11-06T21:23:07.538733+00:00",
   "paper": {
     "title": "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions",
     "PDF_path": "paper/CohortCert_ICDE2027_Final.pdf",
-    "PDF_sha256": "cea9a046eaa3b98297147bc91a16a86b894f1b52fdd51e0ef0e47bd8b49d21ae",
+    "PDF_sha256": "b5f6b1852d21e56864ad0cbe80c1996a7840b733746af294cfa67da0d143088d",
     "source_ZIP_path": "paper/CohortCert_LaTeX_Source.zip",
-    "source_ZIP_sha256": "9f3b3422556132ca7bfbf3a45b10f3c3052cfb1aba632e5aa4af38cbce5e5b3d",
+    "source_ZIP_sha256": "1947ec70900fd42ae69f9ff1a2fecd52e90a6a7b2e4df092fbbaea0965865ab1",
     "body_pages": 12,
     "total_pages": 14,
     "references": 35,
@@ -90,6 +90,17 @@
       },
       {
         "order": 8,
+        "given_name": "Cong",
+        "family_name": "Wang",
+        "chinese_name": "王聪",
+        "email": "wangcong@gsm.pku.edu.cn",
+        "ORCID": "0000-0002-5300-0122",
+        "affiliation_index": 1,
+        "equal_first": false,
+        "corresponding": false
+      },
+      {
+        "order": 9,
         "given_name": "Zhangxuan",
         "family_name": "Shi",
         "chinese_name": "",
@@ -100,7 +111,7 @@
         "corresponding": false
       },
       {
-        "order": 9,
+        "order": 10,
         "given_name": "Xiaolong",
         "family_name": "Shi",
         "chinese_name": "石小龙",
@@ -159,5 +170,13 @@
   "previous_release_metadata": "history/aae1e7b",
   "reproduction_scope": "README.md and ARTIFACT_AVAILABILITY.txt; Regular-paper supplement, not an assertion of EAB completeness",
   "internal_reviews_or_personal_COI_files_included": false,
-  "CMT_submitted_by_this_publication": false
+  "CMT_submitted_by_this_publication": false,
+  "author_list_revision": {
+    "parent_publication": "d3b925e16f4823c46b6fa68e929be50237c54a66",
+    "new_author": "Cong Wang",
+    "order": 8,
+    "equal_first": false,
+    "corresponding": false,
+    "paper_body_source_unchanged": true
+  }
 }

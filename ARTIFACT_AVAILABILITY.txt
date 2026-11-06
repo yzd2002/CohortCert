@@ -1,6 +1,6 @@
 CohortCert current manuscript and public reproducibility payload
 
-The current paper PDF and complete LaTeX source are in paper/. authors.csv gives the current nine-author order and affiliations; the first four share first authorship and Xiaolong Shi is sole corresponding author. PAPER_ARTIFACT_BINDING.json records exact hashes.
+The current paper PDF and complete LaTeX source are in paper/. authors.csv gives the current ten-author order and affiliations; the first four share first authorship and Xiaolong Shi is sole corresponding author. PAPER_ARTIFACT_BINDING.json records exact hashes.
 
 The four original archives are unchanged: fast_analysis.zip, method_sources.zip, study_A_identity_addendum.zip, final_diagnostics.zip. They supply executable analysis entry points, original method/control/audit sources, fixed principal CPU-study inputs, closed MAST audits, finite arithmetic checks and saved runtime receipts. README.md gives commands, tested environments, source entry points and external data/model retrieval scope. Existing licenses and provider notices remain in force. Model weights, provider text corpora and every historical raw trace are not bundled; this Regular-paper supplement does not assert EAB-complete clean-machine reproduction.
 
