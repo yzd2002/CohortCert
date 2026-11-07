@@ -1,12 +1,12 @@
 {
-  "schema": "CohortCert-current-ten-author-paper-public-artifact-binding/v4",
-  "created_UTC": "2026-11-06T21:23:07.538733+00:00",
+  "schema": "CohortCert-readable-nine-author-paper-artifact-binding/v5",
+  "created_UTC": "2026-11-07T12:04:23.329371+00:00",
   "paper": {
     "title": "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions",
     "PDF_path": "paper/CohortCert_ICDE2027_Final.pdf",
-    "PDF_sha256": "b5f6b1852d21e56864ad0cbe80c1996a7840b733746af294cfa67da0d143088d",
+    "PDF_sha256": "3d1ec83b7830b4358e8b4a1e0f41fd947237916d8b83be533eb04d05dd119e3a",
     "source_ZIP_path": "paper/CohortCert_LaTeX_Source.zip",
-    "source_ZIP_sha256": "1947ec70900fd42ae69f9ff1a2fecd52e90a6a7b2e4df092fbbaea0965865ab1",
+    "source_ZIP_sha256": "246cd85bec4b2a6d7e24e23fc2661b7d847cf4a1f04a6f7a7d6a27a178e8c613",
     "body_pages": 12,
     "total_pages": 14,
     "references": 35,
@@ -101,17 +101,6 @@
       },
       {
         "order": 9,
-        "given_name": "Zhangxuan",
-        "family_name": "Shi",
-        "chinese_name": "",
-        "email": "shizhx25@mail2.sysu.edu.cn",
-        "ORCID": "0009-0006-7728-7128",
-        "affiliation_index": 5,
-        "equal_first": false,
-        "corresponding": false
-      },
-      {
-        "order": 10,
         "given_name": "Xiaolong",
         "family_name": "Shi",
         "chinese_name": "石小龙",
@@ -126,19 +115,27 @@
       "1": "Guanghua School of Management, Peking University, Beijing, China",
       "2": "School of Artificial Intelligence, Guangzhou University, Guangzhou, China",
       "3": "Institute of Emergency Safety Innovations, Guangzhou University, Guangzhou, China",
-      "4": "Research Institute of Computing Science and Technology, Guangzhou University, Guangzhou, China",
-      "5": "Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China"
+      "4": "Research Institute of Computing Science and Technology, Guangzhou University, Guangzhou, China"
     },
-    "sole_corresponding_author": "Xiaolong Shi",
     "equal_first_author_orders": [
       1,
       2,
       3,
       4
-    ]
+    ],
+    "sole_corresponding_author": "Xiaolong Shi"
+  },
+  "technical_companion": {
+    "PDF_path": "paper/CohortCert_Technical_Companion.pdf",
+    "PDF_sha256": "0d214adb6e71ee19ce9ab58879b550dfb8d6c3a67694558f102fa368a02ca523",
+    "source_ZIP_path": "paper/CohortCert_Technical_Companion_Source.zip",
+    "source_ZIP_sha256": "8644960cd9ac10045a13bd6af861280e13d5bdce8ff2f2f68bd5465956c61d13",
+    "separate_online_supplement": true,
+    "appended_to_main_PDF": false,
+    "frozen_definitions_and_parameters_preserved": true
   },
   "fixed_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1",
-  "in_paper_evidence_URL": "https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1",
+  "in_paper_repository_URL": "https://github.com/yzd2002/CohortCert",
   "archives": [
     {
       "path": "fast_analysis.zip",
@@ -165,18 +162,19 @@
       "unchanged_from_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1"
     }
   ],
-  "implementations_experimental_inputs_numerical_results_and_6_figure_PDFs_unchanged": true,
+  "six_vector_figure_PDFs": {
+    "fig_completion_v3.pdf": "130c0eba4631726001a9b8b673ac16971ed121e1478ffebba54a96659d681216",
+    "fig_main_v2.pdf": "b051ffa61195970e202c143370d072f4a336278a5cab2b4a4d2cfe0e1a9e4972",
+    "fig_mechanisms_v3.pdf": "c3a574f8a35ccfcafbb3f343fa0e9395c0217e710e78d523aae713d022459760",
+    "fig_natural_overlap_v2.pdf": "7e05faa7ab3f79601e29ca50918bffab30fc82c23de4d38481bde82e15e4f431",
+    "fig_oracle_v2.pdf": "867a17af2328a23a634afe74b20bc3be760b0ec5e0f31cee7de19e58025bdeac",
+    "fig_runtime_v2.pdf": "84a8631b01e9dad95c0f5560eb31adbb11049634a01b0f0ffb40382b66f1d5b3"
+  },
+  "parent_manuscript_commit": "3f61dbc5503f0f9457de82f68b7395e695e94b7a",
+  "methods_inputs_results_and_six_vector_figures_unchanged": true,
+  "main_exposition_changed": true,
   "new_experiments_claimed": false,
-  "previous_release_metadata": "history/aae1e7b",
-  "reproduction_scope": "README.md and ARTIFACT_AVAILABILITY.txt; Regular-paper supplement, not an assertion of EAB completeness",
+  "reproduction_scope": "README.md and ARTIFACT_AVAILABILITY.txt; Regular-paper supplement, not a claim of EAB completeness",
   "internal_reviews_or_personal_COI_files_included": false,
-  "CMT_submitted_by_this_publication": false,
-  "author_list_revision": {
-    "parent_publication": "d3b925e16f4823c46b6fa68e929be50237c54a66",
-    "new_author": "Cong Wang",
-    "order": 8,
-    "equal_first": false,
-    "corresponding": false,
-    "paper_body_source_unchanged": true
-  }
+  "CMT_submitted_by_this_publication": false
 }

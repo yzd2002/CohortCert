@@ -1,18 +1,26 @@
 # CohortCert: shared evidence and proof costs
 
-[Current manuscript (PDF)](paper/CohortCert_ICDE2027_Final.pdf) · [Complete LaTeX source](paper/CohortCert_LaTeX_Source.zip) · [Authors and affiliations](authors.csv)
+[Current main paper](paper/CohortCert_ICDE2027_Final.pdf) · [Main LaTeX source](paper/CohortCert_LaTeX_Source.zip) · [Technical Companion](paper/CohortCert_Technical_Companion.pdf) · [Companion source](paper/CohortCert_Technical_Companion_Source.zip) · [Reading guide](READING_GUIDE.md) · [Authors](authors.csv)
 
-**Zida Yang, Zisheng Kuang, Guquan You, Yongjun Dai, Junqin Chen, Haobing Liu, Jiexin Zheng, Cong Wang, Zhangxuan Shi, Xiaolong Shi.**
+**Zida Yang, Zisheng Kuang, Guquan You, Yongjun Dai, Junqin Chen, Haobing Liu, Jiexin Zheng, Cong Wang, Xiaolong Shi.**
 
-The first four authors share first authorship. **Xiaolong Shi is the sole corresponding author** (xlshi@gzhu.edu.cn). The current ten-author manuscript has 12 body pages and 14 total pages, 35 references, an explicit executor algorithm, and a fixed evidence link. This repository is a Regular Research Paper supplement; it makes no claim of conference acceptance.
+The first four authors share first authorship. **Xiaolong Shi is the sole corresponding author** (xlshi@gzhu.edu.cn). Cong Wang is ordinary author eight. The current manuscript has 12 body pages and 14 total pages with 35 references. The Technical Companion is a separate online supplement, not an appendix to the submission PDF.
+
+## What the system does
+
+An analyst may ask several comparisons, equivalence judgments or a top-set question at once. CohortCert reads expensive labels incrementally, reuses them across overlapping cohorts and requested comparisons, and returns a complete request only when its count evidence supports every item. A separate offline evaluator bounds how few reads could supply the same kind of correct proof on realized paths. This is hindsight diagnosis, not information given to the online allocator.
 
 ## Current paper and fixed evidence
 
-The manuscript PDF SHA-256 is `b5f6b1852d21e56864ad0cbe80c1996a7840b733746af294cfa67da0d143088d`. [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds that exact PDF, its complete source, the current author list, and the unchanged four evidence archives. [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) and [SHA256SUMS.txt](SHA256SUMS.txt) identify the current downloadable payload.
+This v5 rewrite uses one numerical example, a notation table, plain-language formula bridges, three groups of completion constraints, a study map and explanatory results tables. Full definitions and frozen parameters remain in the companion. Numerical findings, method implementations, empirical inputs and all six supplied vector figures are unchanged; no new experiment is claimed.
 
-This author-list revision inserts Cong Wang as ordinary author eight, after Jiexin Zheng. The preceding nine-author manuscript remains available at commit `d3b925e16f4823c46b6fa68e929be50237c54a66`. Implementations, experimental inputs, numerical results and all six supplied vector figures are unchanged. The PDF footnote pins evidence snapshot [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1); the current repository additionally supplies this ten-author paper and updated citation metadata. The preceding release's README, citation, binding and checksum files are preserved under [history/aae1e7b](history/aae1e7b). Earlier access receipts remaining at the repository root describe their explicitly recorded historical snapshots.
+Current main PDF SHA-256: `3d1ec83b7830b4358e8b4a1e0f41fd947237916d8b83be533eb04d05dd119e3a`.
+Companion PDF SHA-256: `0d214adb6e71ee19ce9ab58879b550dfb8d6c3a67694558f102fa368a02ca523`.
+[PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds the manuscript, companion, sources, nine-author list and four original archives. [SHA256SUMS.txt](SHA256SUMS.txt) and [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) give file hashes.
 
-The frozen component READMEs retain their capture-time status. Use the current outer binding for paper identity and the component notices for scientific reproduction scope. Internal reviews, personal CMT/COI declarations and submission-administration files are excluded from this repository.
+The four evidence archives remain fixed at [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1). The main paper links this repository and states that evidence pin; current manifests identify its manuscript/companion. The preceding manuscript is preserved at [`3f61dbc`](https://github.com/yzd2002/CohortCert/tree/3f61dbc5503f0f9457de82f68b7395e695e94b7a). Earlier repository history and access receipts retain their own recorded identities and scopes. Frozen component READMEs describe capture-time status; use the current outer binding for paper identity.
+
+This is a Regular Research Paper supplement. It does not claim conference acceptance or EAB-complete reproduction. Author-specific COI/CMT declarations, submission administration and internal reviews are excluded from the public repository.
 
 ## Start here
 

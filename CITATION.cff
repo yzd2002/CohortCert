@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: If you use these artifacts, cite the software release and the current ten-author
+message: If you use these artifacts, cite the software release and the current nine-author
   manuscript in preferred-citation. The software author list retains the unchanged
   evidence release identity.
 title: CohortCert reproducibility artifacts
@@ -64,9 +64,6 @@ preferred-citation:
   - given-names: Cong
     family-names: Wang
     orcid: https://orcid.org/0000-0002-5300-0122
-  - given-names: Zhangxuan
-    family-names: Shi
-    orcid: https://orcid.org/0009-0006-7728-7128
   - given-names: Xiaolong
     family-names: Shi
     orcid: https://orcid.org/0000-0002-1838-8643
