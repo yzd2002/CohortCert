@@ -1,6 +1,6 @@
-CohortCert v6 public manuscript and reproducibility material
+CohortCert v7 public manuscript and reproducibility material
 
-paper/ contains the current nine-author main PDF and complete LaTeX source plus the separate Technical Companion PDF/source. authors.csv and preferred-citation in CITATION.cff identify the current manuscript authors. The first four share first authorship; only Xiaolong Shi is corresponding author. The software citation retains the original seven-author fixed evidence identity.
+paper/ contains the current eight-author main PDF and complete LaTeX source plus the separate Technical Companion PDF/source. authors.csv and preferred-citation in CITATION.cff identify the current manuscript authors. The first four share first authorship; Jiexin Zheng and Cong Wang are corresponding authors. The software citation retains the original seven-author fixed evidence identity.
 
 The four original evidence archives are unchanged: fast_analysis.zip, method_sources.zip, study_A_identity_addendum.zip and final_diagnostics.zip. They provide executable analysis, original method/control/audit sources, fixed principal CPU-study inputs, closed MAST audits, finite arithmetic checks and saved runtime receipts. README.md documents commands, tested environments, external inputs and limits. READING_GUIDE.md is explanatory and introduces no new measurement.
 
