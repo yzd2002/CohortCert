@@ -12,13 +12,13 @@ An analyst may ask several comparisons, equivalence judgments or a top-set quest
 
 ## Current paper and fixed evidence
 
-This v5 rewrite uses one numerical example, a notation table, plain-language formula bridges, three groups of completion constraints, a study map and explanatory results tables. Full definitions and frozen parameters remain in the companion. Numerical findings, method implementations, empirical inputs and all six supplied vector figures are unchanged; no new experiment is claimed.
+This v6 revision follows a fresh PDF-only cold read. The abstract explains the task, obstacle, insight and method; captions clarify denominators and bound edges; grid rounding, the changed-threshold construction and Beta concentration are explicit. A concise AI declaration identifies author leadership, actual assistance and responsibility. Full definitions and frozen parameters remain in the companion. Numerical findings, method implementations, empirical inputs and all six supplied vector figures are unchanged; no new experiment is claimed.
 
-Current main PDF SHA-256: `3d1ec83b7830b4358e8b4a1e0f41fd947237916d8b83be533eb04d05dd119e3a`.
-Companion PDF SHA-256: `0d214adb6e71ee19ce9ab58879b550dfb8d6c3a67694558f102fa368a02ca523`.
+Current main PDF SHA-256: `5773031c099abb1a4e39cd776580754577d5ee10c8bfd290f0ed7f0057a7901e`.
+Companion PDF SHA-256: `798a4dccc8f0d76798bfbe47ed17a876e88f15042ae67745369d3ac4eb5d0a20`.
 [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds the manuscript, companion, sources, nine-author list and four original archives. [SHA256SUMS.txt](SHA256SUMS.txt) and [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) give file hashes.
 
-The four evidence archives remain fixed at [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1). The main paper links this repository and states that evidence pin; current manifests identify its manuscript/companion. The preceding manuscript is preserved at [`3f61dbc`](https://github.com/yzd2002/CohortCert/tree/3f61dbc5503f0f9457de82f68b7395e695e94b7a). Earlier repository history and access receipts retain their own recorded identities and scopes. Frozen component READMEs describe capture-time status; use the current outer binding for paper identity.
+The four evidence archives remain fixed at [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1). The main paper links this repository and states that evidence pin; current manifests identify its manuscript/companion. The preceding v5 manuscript is preserved at [`1365b06`](https://github.com/yzd2002/CohortCert/tree/1365b06cff99a72ebf94193b8f9a393676552f6b). Earlier repository history and access receipts retain their own recorded identities and scopes. Frozen component READMEs describe capture-time status; use the current outer binding for paper identity.
 
 This is a Regular Research Paper supplement. It does not claim conference acceptance or EAB-complete reproduction. Author-specific COI/CMT declarations, submission administration and internal reviews are excluded from the public repository.
 

@@ -1,4 +1,4 @@
-CohortCert v5 public manuscript and reproducibility material
+CohortCert v6 public manuscript and reproducibility material
 
 paper/ contains the current nine-author main PDF and complete LaTeX source plus the separate Technical Companion PDF/source. authors.csv and preferred-citation in CITATION.cff identify the current manuscript authors. The first four share first authorship; only Xiaolong Shi is corresponding author. The software citation retains the original seven-author fixed evidence identity.
 

@@ -1,6 +1,6 @@
 # Reading CohortCert
 
-Start with the main paper's Introduction, Figure 1 and Section II. The same example is used throughout the explanation.
+The current abstract first explains the task, obstacle, insight and method. Start with the main paper's Introduction, Figure 1 and Section II. The same example is used throughout the explanation.
 
 ## One request, three questions
 
@@ -35,3 +35,5 @@ Section IV and Table III map the studies. Main replays charge one record-predica
 CivilComments gains over WidthGreedy are 0.78 and 1.16 percentage points for crowd and model labels; GoEmotions nearly ties. The 157/192 within-budget offline proofs and 30/192 signed-overlap cost effects are separate hindsight diagnostics. They are not online completion improvements. A sampling guarantee for fixed model labels does not establish semantic agreement with crowd annotations.
 
 For full predictive-mixture formulas, score definitions, execution parameters and the scoped mathematical construction, read the separate Technical Companion. For executable analysis, source locations and external data/model requirements, follow README.md. The public file binding fixes the exact manuscript and evidence bytes.
+
+The predictive proxy adds 20 pseudo-observations to Beta(1,1), so its total concentration is 22; this clarifies the frozen parameterization. Figure 3 uses 4,640 primary nonranking executions per curve. Figure 4 has finite scatter coordinates only; the no-proof case stays in the declared denominator. Figure 5's lower completion edge counts constructed proofs, and its upper edge includes cases not excluded by cost bounds.
