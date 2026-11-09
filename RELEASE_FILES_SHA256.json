@@ -1,14 +1,14 @@
 {
-  "schema": "CohortCert-public-author-update/v7",
-  "created_UTC": "2026-11-09T15:01:44.663035+00:00",
-  "paper_PDF_sha256": "6e60d4158659bced94925eda9a5234f1dd13f371623cc15dbee0364ee55f0761",
-  "companion_PDF_sha256": "4602ad2255ce8abf1ce629590aac4a7d06dd435cc75c921a17767edbf1bdcd90",
+  "schema": "CohortCert-reader-first-publication/v8",
+  "created_UTC": "2026-11-09T16:45:09.754834+00:00",
+  "paper_PDF_sha256": "7b0273ff905ee6e5893afaf0d20caf73c9848de3749fdb4157a20b8c21304620",
+  "companion_PDF_sha256": "6bf38b6de0f482c8dbe168690d546ca77bec93827bdc3d034517b98a25e0e0d9",
   "evidence_parent_commit": "aae1e7b071906d12c11f3eb230b9aee981f8adc1",
   "files": [
     {
       "path": "ARTIFACT_AVAILABILITY.txt",
-      "bytes": 1490,
-      "sha256": "14a49ce8edebb8608587e4bddd7fdd45636934077719ce31edfdee85dabf73ff"
+      "bytes": 1793,
+      "sha256": "4b486e74a75a7b3fe6b01a42c26a71026f85eacd3708284bb45d5afd8186be36"
     },
     {
       "path": "CITATION.cff",
@@ -17,28 +17,28 @@
     },
     {
       "path": "FINAL_PAPER_TO_ARTIFACT.csv",
-      "bytes": 2463,
-      "sha256": "68b4f99b144ba82979539386b9e793f134a0b73cf5b5c94804283c7716b7dc97"
+      "bytes": 2526,
+      "sha256": "35b70033c52f5b58d86a3deb5e22555d5857595ebafb032b7a399013c69b43fe"
     },
     {
       "path": "PAPER_ARTIFACT_BINDING.json",
-      "bytes": 7018,
-      "sha256": "17012f044e679c97bce7cdd675b271e354b650bdd502ca36aa346fc127c519c6"
+      "bytes": 7341,
+      "sha256": "a733b4678107d8e55309cf028269ac297a4a93403ca93032e25376d9f402ebaa"
     },
     {
       "path": "READING_GUIDE.md",
-      "bytes": 4073,
-      "sha256": "7c7766466db75b98b3385bcdafa20bb87a84e886066c3269eb5ae86183869418"
+      "bytes": 4130,
+      "sha256": "ad0fa50f145e63405026de93f749a9c087561d0bd9f8fdf1730b740bee116a0a"
     },
     {
       "path": "README.md",
-      "bytes": 11039,
-      "sha256": "adc1c2f61159efa2ff2eea13f9eeb0b7db793807d7b8679e3ff17ef75215c759"
+      "bytes": 11334,
+      "sha256": "845b3bb7bf66d33799ba49043ecfa939aece2b28fbd1f2b2424b34603913c8c4"
     },
     {
       "path": "SHA256SUMS.txt",
       "bytes": 1372,
-      "sha256": "255e7a807efa25e8699c8c488e48fa256e118d3e8e9bfe940ca062d07d78baea"
+      "sha256": "a4b66c81185e5da585b3af57c94e7117b70f55dc0ca0e9b40aff62b63196c4f1"
     },
     {
       "path": "authors.csv",
@@ -62,23 +62,23 @@
     },
     {
       "path": "paper/CohortCert_ICDE2027_Final.pdf",
-      "bytes": 500913,
-      "sha256": "6e60d4158659bced94925eda9a5234f1dd13f371623cc15dbee0364ee55f0761"
+      "bytes": 473021,
+      "sha256": "7b0273ff905ee6e5893afaf0d20caf73c9848de3749fdb4157a20b8c21304620"
     },
     {
       "path": "paper/CohortCert_LaTeX_Source.zip",
-      "bytes": 303611,
-      "sha256": "31735590ff8f6deb9bc18babed943faa75bd6443549e8d0dc8ab52c581447395"
+      "bytes": 302847,
+      "sha256": "e083402f37e8b12573003c378ac190bff29b45b08d5d52cea046e2b25bda490e"
     },
     {
       "path": "paper/CohortCert_Technical_Companion.pdf",
-      "bytes": 303236,
-      "sha256": "4602ad2255ce8abf1ce629590aac4a7d06dd435cc75c921a17767edbf1bdcd90"
+      "bytes": 448221,
+      "sha256": "6bf38b6de0f482c8dbe168690d546ca77bec93827bdc3d034517b98a25e0e0d9"
     },
     {
       "path": "paper/CohortCert_Technical_Companion_Source.zip",
-      "bytes": 63273,
-      "sha256": "7fed2b451c84e1fd2554b393173e83fe23c326332c7497fb02e7b406db27a311"
+      "bytes": 180885,
+      "sha256": "a182507769481cc98111ffa6504cc35e4f043334ad2b8d7facf88d2d9b1307db"
     },
     {
       "path": "study_A_identity_addendum.zip",

@@ -5,8 +5,8 @@ Figure 3,Whole-request completion,fast_analysis.zip,fig_completion_v3.pdf,Horizo
 Figure 4,Gain aggregation and signed propagation,fast_analysis.zip,fig_mechanisms_v3.pdf,Fixed-evidence effects; unchanged data
 Figure 5,Verified offline bracket,fast_analysis.zip,fig_oracle_v2.pdf,Horizontal unit: percent of declared call cap; band is cost-bound uncertainty
 Table I / Section II,Notation and object meanings,CohortCert_LaTeX_Source.zip,core_methods.tex,Explanatory; no empirical result
-Table II / Section III-A,Illustrative gain options,CohortCert_LaTeX_Source.zip,core_methods.tex,Schematic fixed-witness example; not measured savings
-Table III / Section IV,Study units and denominators,CohortCert_LaTeX_Source.zip,evaluation_design.tex,Map of unchanged planned studies
+Table II / Section IV,Study units and denominators,CohortCert_LaTeX_Source.zip,evaluation_design.tex,Map of unchanged planned studies
+Table III / Section IV,Request-family definitions and planned counts,CohortCert_LaTeX_Source.zip,evaluation_design.tex,"Plain definitions of existing comparison, equivalence, dominance, mixed and ranking requests"
 Table IV,Primary nonranking results,fast_analysis.zip,generated_primary_table.tex,Same 13 rows and numerical values
 Table V / Section V-C,Offline case partition,fast_analysis.zip,tools/portable_legacy_figures.py,Existing 96-case reference partitions; no new oracle run
 Table VI,Semantic-reference comparison,fast_analysis.zip,generated_semantic_table.tex,Same saved results

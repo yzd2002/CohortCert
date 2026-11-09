@@ -1,7 +1,9 @@
-CohortCert v7 public manuscript and reproducibility material
+CohortCert v8 public manuscript and reproducibility material
 
 paper/ contains the current eight-author main PDF and complete LaTeX source plus the separate Technical Companion PDF/source. authors.csv and preferred-citation in CITATION.cff identify the current manuscript authors. The first four share first authorship; Jiexin Zheng and Cong Wang are corresponding authors. The software citation retains the original seven-author fixed evidence identity.
 
 The four original evidence archives are unchanged: fast_analysis.zip, method_sources.zip, study_A_identity_addendum.zip and final_diagnostics.zip. They provide executable analysis, original method/control/audit sources, fixed principal CPU-study inputs, closed MAST audits, finite arithmetic checks and saved runtime receipts. README.md documents commands, tested environments, external inputs and limits. READING_GUIDE.md is explanatory and introduces no new measurement.
 
 The main PDF links the public repository and states the fixed evidence commit. PAPER_ARTIFACT_BINDING.json and release checksums bind the current main paper, companion, sources and archives. Historical snapshots and receipts keep their original identities. Existing licenses/provider notices remain in force. Model weights, provider text corpora and every historical raw trace are not bundled. This Regular-paper supplement does not assert EAB-complete clean-machine reproduction. Internal reviews and personal submission declarations are not public artifacts.
+
+The v8 reader-first revision introduces the task, worked example, data units and online loop before the formal optimization. The Technical Companion retains full derivations and now includes the complete detailed result account in TC5. No empirical input, numerical result or method source is changed.
