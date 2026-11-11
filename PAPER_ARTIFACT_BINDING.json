@@ -1,12 +1,12 @@
 {
-  "schema": "CohortCert-heading-readability-binding/v10",
-  "created_UTC": "2026-11-11T09:29:48.150829+00:00",
+  "schema": "CohortCert-heading-readability-binding/v11",
+  "created_UTC": "2026-11-11T09:39:50.439010+00:00",
   "paper": {
     "title": "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions",
     "PDF_path": "paper/CohortCert_ICDE2027_Final.pdf",
-    "PDF_sha256": "a73f2e736378a84d3bd1c319a9f24167f961ef186b959586f337c35dbc975c38",
+    "PDF_sha256": "aae9bf27121fc523afad0808f42f6581f36d40c9b82e311dc98040f553506f30",
     "source_ZIP_path": "paper/CohortCert_LaTeX_Source.zip",
-    "source_ZIP_sha256": "e1a79ccace8d7f9dcfc02110005edcbc8189b77be609a6bcafe54345e9edc34a",
+    "source_ZIP_sha256": "605ceb9e3f77e9d3499b5fab8a13971908354f0f9b6de0065a12f7ce236602f4",
     "body_pages": 12,
     "total_pages": 14,
     "references": 35,
@@ -129,7 +129,7 @@
   },
   "technical_companion": {
     "PDF_path": "paper/CohortCert_Technical_Companion.pdf",
-    "PDF_sha256": "16fdcbd9566123b985b5767d264d0357698d85ef1b8d39ffaabf71248a70053f",
+    "PDF_sha256": "6b3a8572d38e76b96bc315d36d34884988ea4a52f38d4c86762b3beebea2ba61",
     "source_ZIP_path": "paper/CohortCert_Technical_Companion_Source.zip",
     "source_ZIP_sha256": "9ced4b4436421ee0a80c79c6e3f11d9ba1a34842fc5e09019cb56829c53cd013",
     "separate_online_supplement": true,
@@ -174,7 +174,7 @@
     "fig_oracle_v2.pdf": "867a17af2328a23a634afe74b20bc3be760b0ec5e0f31cee7de19e58025bdeac",
     "fig_runtime_v2.pdf": "84a8631b01e9dad95c0f5560eb31adbb11049634a01b0f0ffb40382b66f1d5b3"
   },
-  "parent_manuscript_commit": "099b934450034972986b3a1d1f78a25e70933320",
+  "parent_manuscript_commit": "30d6cd0ebc41e86deaf86bbe3c5f1e9f80f909b4",
   "methods_inputs_results_and_six_vector_figures_unchanged": true,
   "main_exposition_changed": true,
   "new_experiments_claimed": false,
@@ -190,7 +190,9 @@
     "contribution_and_section_roadmaps_clarified": true,
     "authorship_and_AI_declaration_unchanged": true,
     "core_equations_unchanged": true,
-    "numeric_tokens_in_each_scientific_source_preserved_in_order": true,
+    "empirical_table_values_and_all_seven_displayed_equations_unchanged": true,
+    "implementation_details_preserved_in_unchanged_TC2_TC3": true,
+    "figure_percentage_axes_and_captions_aligned": true,
     "numerical_results_method_inputs_and_six_vector_figures_unchanged": true,
     "new_experiments_or_independent_subagent_review_claimed": false
   },

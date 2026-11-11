@@ -1,4 +1,4 @@
-CohortCert v10 public manuscript and reproducibility material
+CohortCert v11 public manuscript and reproducibility material
 
 paper/ contains the current eight-author main PDF and complete LaTeX source plus the separate Technical Companion PDF/source. authors.csv and preferred-citation in CITATION.cff identify the current manuscript authors. The first four share first authorship; Jiexin Zheng and Cong Wang are corresponding authors. The software citation retains the original seven-author fixed evidence identity.
 
@@ -9,3 +9,5 @@ The main PDF links the public repository and states the fixed evidence commit. P
 The v8 reader-first revision introduces the task, worked example, data units and online loop before the formal optimization. The Technical Companion retains full derivations and now includes the complete detailed result account in TC5. No empirical input, numerical result or method source is changed.
 
 The v10 release keeps the authors' exact replacement abstract, unifies headings, clarifies the reading route and supplies an Overleaf-compatible root main.tex. Mathematical results and experimental evidence are unchanged.
+
+The v11 release keeps the authors' exact replacement abstract, unifies headings, clarifies the reading route and supplies an Overleaf-compatible root main.tex. Mathematical results and experimental evidence are unchanged.
