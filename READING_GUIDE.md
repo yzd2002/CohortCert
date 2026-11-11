@@ -10,6 +10,8 @@ Ranges [40,48], [8,12] and [20,24] imply a difference [0.07,0.21]. Thus differen
 
 ## Read the method in execution order
 
+The main sections are Shared Evidence and Supported Answers (II), Adaptive Sampling and Cost Analysis (III), Experimental Setup (IV), Results (V), Related Work (VI) and Discussion (VII). IEEE small-cap headings are template styling, not inconsistent letter case. The introduction gives an explicit contribution and reading roadmap.
+
 | Location | Reader question | Meaning of the formal term |
 |---|---|---|
 | II-A/B | What goes in and what comes out? | Fixed records and groups; true/false/unresolved answers and charged reads |
