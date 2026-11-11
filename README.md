@@ -12,10 +12,10 @@ An analyst may ask several comparisons, equivalence judgments or a top-set quest
 
 ## Current paper and fixed evidence
 
-This v11 revision addresses a first reader's questions directly: request versus decision versus comparison; total versus observed positive counts; fixed label references; confidence sequences (CS); observed evidence versus forecast predictions; and the three blocks of the completion program. Figure 3 and Figure 5 captions explicitly describe their percentage axes; the primary-table caption defines charged reads and error/proof columns. Model/configuration abbreviations and censored MAST paths are explained. Dense online scheduling details are summarized in plain language, with exact settings preserved in unchanged TC2-TC3. The exact author-supplied 1,540-character abstract, eight author identities/roles, 73-word AI paragraph, seven displayed equations, numerical result tables and six vector figures remain unchanged. No new experiment or independent subagent review is claimed.
+This v12 revision supplies six newly drawn vector PDF figures with editable SVGs and a consistent visual vocabulary, restyles all 15 tables across the main paper and companion, and aligns the captions with the displays. Figure 1 explains overlapping groups, shared count bounds and supported answers without numbered badges. Multipart empirical figures retain panel letters for precise caption references. All original curves, finite points, intervals, denominators and 23 live measurements are retained. The exact 1,540-character author-provided abstract, eight author identities/roles, 73-word AI paragraph, seven displayed equations and empirical results are unchanged. The 22-page companion now also displays the complete runtime figure. No new experiment is claimed.
 
-Current main PDF SHA-256: `aae9bf27121fc523afad0808f42f6581f36d40c9b82e311dc98040f553506f30`.
-Companion PDF SHA-256: `6b3a8572d38e76b96bc315d36d34884988ea4a52f38d4c86762b3beebea2ba61`.
+Current main PDF SHA-256: `d6d6764b0ece5f1a8348c30072c0725ac070a991bb9a5cd018b0ff971e846e30`.
+Companion PDF SHA-256: `e0f195ff7dbed0b7e515a062a99ebe97f70c9cb8c28411b8d7f0fe49b388aed3`.
 [PAPER_ARTIFACT_BINDING.json](PAPER_ARTIFACT_BINDING.json) binds the manuscript, companion, sources, eight-author list and four original archives. [SHA256SUMS.txt](SHA256SUMS.txt) and [RELEASE_FILES_SHA256.json](RELEASE_FILES_SHA256.json) give file hashes.
 
 The four evidence archives remain fixed at [`aae1e7b`](https://github.com/yzd2002/CohortCert/tree/aae1e7b071906d12c11f3eb230b9aee981f8adc1). The main paper links this repository and states that evidence pin; current manifests identify its manuscript/companion. The preceding v8 manuscript is preserved at [`099b934`](https://github.com/yzd2002/CohortCert/tree/099b934450034972986b3a1d1f78a25e70933320). Earlier repository history and access receipts retain their own recorded identities and scopes. Frozen component READMEs describe capture-time status; use the current outer binding for paper identity.
@@ -36,6 +36,16 @@ Download checksums are provided in `SHA256SUMS.txt`; on Linux, `sha256sum -c SHA
 | [final_diagnostics.zip](final_diagnostics.zip) | Separate synthetic 205/197/171 construction, N=100 logical-interface enumeration, stdlib reproduction entry point, and supplemental runtime plot | Original finite evidence independently checked; final portable entry point executed without external dependencies |
 
 The `study_A_identity_addendum.zip` archive resolves the **record-identity file** omission described in the historically frozen base-source README. Keep both archives: the base contains the original A labels/ranks; the addendum contains the matching record identities. This archival combination does not reset any historical execution permission or fill censored paths.
+
+## Redraw the current figures
+
+The [main LaTeX source ZIP](paper/CohortCert_LaTeX_Source.zip) is also an Overleaf-ready project: select root `main.tex` and pdfLaTeX. Its `figure_source/` directory contains the display code, six unchanged frozen plotting inputs with provenance/checksums, editable SVGs and tested plotting dependencies. From that directory run:
+
+```sh
+python redraw_figures.py --inputs inputs --out redrawn_figures
+```
+
+This redraws all six current PDF/SVG/PNG figures without executing models, acquisitions, bootstrap resampling or optimization. The original frozen archives retain their historical figures; the current source ZIP determines the displayed v12 appearance. Compiling the paper needs only the already included figure PDFs, not Python. The companion source ZIP compiles separately.
 
 ## Quick start: analysis and integrity
 
@@ -74,7 +84,7 @@ cd submission_final_diagnostics_v1
 python3 -B reproduce_diagnostics.py --out reviewer_results_01
 ```
 
-This recalculates the final finite quantities without model, CI-library, dataset or random-number calls. The synthetic task differs from the fixed MAST request: 205 is exact only in the specified family, 197 is a same-task OR-certificate upper bound, and 171 changes the threshold. The 94/5,049 logical-interface result counts deterministic states, not empirical error rates. The original six figures remain available in the base archive; the final main text has five figures and the former runtime figure is supplemental.
+This recalculates the final finite quantities without model, CI-library, dataset or random-number calls. The synthetic task differs from the fixed MAST request: 205 is exact only in the specified family, 197 is a same-task OR-certificate upper bound, and 171 changes the threshold. The 94/5,049 logical-interface result counts deterministic states, not empirical error rates. The original six figures remain available in the base archive; the final main text has five figures and the runtime figure is displayed in the Technical Companion.
 
 ## Relating files to the paper
 

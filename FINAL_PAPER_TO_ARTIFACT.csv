@@ -1,9 +1,9 @@
 current_item,content,archive,location_or_search_key,scope
-Figure 1,Shared-count worked example,fast_analysis.zip,fig_main_v2.pdf,Illustrative values; unchanged vector PDF
-Figure 2,Natural cohort overlap,fast_analysis.zip,fig_natural_overlap_v2.pdf,Metadata only; unchanged
-Figure 3,Whole-request completion,fast_analysis.zip,fig_completion_v3.pdf,Horizontal unit: fraction of the 50% cap; unchanged data
-Figure 4,Gain aggregation and signed propagation,fast_analysis.zip,fig_mechanisms_v3.pdf,Fixed-evidence effects; unchanged data
-Figure 5,Verified offline bracket,fast_analysis.zip,fig_oracle_v2.pdf,Horizontal unit: percent of declared call cap; band is cost-bound uncertainty
+Figure 1,Shared-count worked example,CohortCert_LaTeX_Source.zip,figure_source/redraw_figures.py; fig_main_v2.pdf,v12 vector redraw; original frozen values retained. Illustrative values; illustrative counts unchanged
+Figure 2,Natural cohort overlap,CohortCert_LaTeX_Source.zip,figure_source/redraw_figures.py; fig_natural_overlap_v2.pdf,v12 vector redraw; original frozen values retained. Metadata only; frozen values unchanged
+Figure 3,Whole-request completion,CohortCert_LaTeX_Source.zip,figure_source/redraw_figures.py; fig_completion_v3.pdf,v12 vector redraw; original frozen values retained. Horizontal unit: fraction of the 50% cap; unchanged data
+Figure 4,Gain aggregation and signed propagation,CohortCert_LaTeX_Source.zip,figure_source/redraw_figures.py; fig_mechanisms_v3.pdf,v12 vector redraw; original frozen values retained. Fixed-evidence effects; unchanged data
+Figure 5,Verified offline bracket,CohortCert_LaTeX_Source.zip,figure_source/redraw_figures.py; fig_oracle_v2.pdf,v12 vector redraw; original frozen values retained. Horizontal unit: percent of declared call cap; band is cost-bound uncertainty
 Table I / Section II,Notation and object meanings,CohortCert_LaTeX_Source.zip,core_methods.tex,Explanatory; no empirical result
 Table II / Section IV,Study units and denominators,CohortCert_LaTeX_Source.zip,evaluation_design.tex,Map of unchanged planned studies
 Table III / Section IV,Request-family definitions and planned counts,CohortCert_LaTeX_Source.zip,evaluation_design.tex,"Plain definitions of existing comparison, equivalence, dominance, mixed and ranking requests"
@@ -14,4 +14,4 @@ Table VII / Section V-F,Fixed MAST request,fast_analysis.zip,MAST/mast_audited_p
 Table VIII / Section V-G,Live calls and time,CohortCert_LaTeX_Source.zip,runtime_results.tex,23 existing executions; policy totals and conditional single cold timings
 Section VII / Technical Companion TC2,205/197/171 construction,final_diagnostics.zip,submission_final_diagnostics_v1/synthetic/FINAL_MANUSCRIPT_EXAMPLE.tex,205 exact specified family;197 same-task upper;171 changed-task upper
 Section V-F / Technical Companion TC4,Logical-interface enumeration,final_diagnostics.zip,submission_final_diagnostics_v1/logical_interface/ALL_5151_STATES.csv,94/5049 proper-prefix deterministic states; no CI trajectory rerun
-Supplemental runtime plot / Section V-G,Former main Figure 6,final_diagnostics.zip,submission_final_diagnostics_v1/runtime/fig_runtime_v2.pdf,23 original executions; no new timing
+Technical Companion runtime figure / Section V-G,Complete 23-execution runtime display,CohortCert_LaTeX_Source.zip,fig_runtime_v2.pdf; figure_source/redraw_figures.py,All 20 warm and 3 fresh-process measurements; no new timing

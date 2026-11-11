@@ -1,12 +1,12 @@
 {
-  "schema": "CohortCert-heading-readability-binding/v11",
-  "created_UTC": "2026-11-11T09:39:50.439010+00:00",
+  "schema": "CohortCert-visual-revision-binding/v12",
+  "created_UTC": "2026-11-11T10:32:28.826798+00:00",
   "paper": {
     "title": "CohortCert: Shared Evidence and Proof Costs for Cohort Decisions",
     "PDF_path": "paper/CohortCert_ICDE2027_Final.pdf",
-    "PDF_sha256": "aae9bf27121fc523afad0808f42f6581f36d40c9b82e311dc98040f553506f30",
+    "PDF_sha256": "d6d6764b0ece5f1a8348c30072c0725ac070a991bb9a5cd018b0ff971e846e30",
     "source_ZIP_path": "paper/CohortCert_LaTeX_Source.zip",
-    "source_ZIP_sha256": "605ceb9e3f77e9d3499b5fab8a13971908354f0f9b6de0065a12f7ce236602f4",
+    "source_ZIP_sha256": "3b13adc5d03e5558f59f894534282e24f981164699f5cc1f63127d573cb2d411",
     "body_pages": 12,
     "total_pages": 14,
     "references": 35,
@@ -129,13 +129,13 @@
   },
   "technical_companion": {
     "PDF_path": "paper/CohortCert_Technical_Companion.pdf",
-    "PDF_sha256": "6b3a8572d38e76b96bc315d36d34884988ea4a52f38d4c86762b3beebea2ba61",
+    "PDF_sha256": "e0f195ff7dbed0b7e515a062a99ebe97f70c9cb8c28411b8d7f0fe49b388aed3",
     "source_ZIP_path": "paper/CohortCert_Technical_Companion_Source.zip",
-    "source_ZIP_sha256": "9ced4b4436421ee0a80c79c6e3f11d9ba1a34842fc5e09019cb56829c53cd013",
+    "source_ZIP_sha256": "65f524c49973743f32c33e05611dbe89a124b627a50511cee30ae03fc5d925dd",
     "separate_online_supplement": true,
     "appended_to_main_PDF": false,
     "frozen_definitions_and_parameters_preserved": true,
-    "total_pages": 21,
+    "total_pages": 22,
     "detailed_result_text_retained_in": "TC5"
   },
   "fixed_evidence_snapshot": "aae1e7b071906d12c11f3eb230b9aee981f8adc1",
@@ -167,34 +167,30 @@
     }
   ],
   "six_vector_figure_PDFs": {
-    "fig_completion_v3.pdf": "130c0eba4631726001a9b8b673ac16971ed121e1478ffebba54a96659d681216",
-    "fig_main_v2.pdf": "b051ffa61195970e202c143370d072f4a336278a5cab2b4a4d2cfe0e1a9e4972",
-    "fig_mechanisms_v3.pdf": "c3a574f8a35ccfcafbb3f343fa0e9395c0217e710e78d523aae713d022459760",
-    "fig_natural_overlap_v2.pdf": "7e05faa7ab3f79601e29ca50918bffab30fc82c23de4d38481bde82e15e4f431",
-    "fig_oracle_v2.pdf": "867a17af2328a23a634afe74b20bc3be760b0ec5e0f31cee7de19e58025bdeac",
-    "fig_runtime_v2.pdf": "84a8631b01e9dad95c0f5560eb31adbb11049634a01b0f0ffb40382b66f1d5b3"
+    "fig_completion_v3.pdf": "e74995bd45c0dd6bda482f30c83f009f35b28c31efe536fee324354c62d7220e",
+    "fig_main_v2.pdf": "e84b9d2ae4c20c8b2cdc52d0064617e7253a3014b9f62ddf57a680e297b730f7",
+    "fig_mechanisms_v3.pdf": "37541d8ae6cc1e7aa130dc91462650ab61d73aa8d06c2ca8305cf3fb0ffe6bd3",
+    "fig_natural_overlap_v2.pdf": "7b6488f8e5a3c71972412f19ce8b88592104ab2025f9bb64e0ac099108984658",
+    "fig_oracle_v2.pdf": "050c1f2194a6f58fc09453c1525834b3efca13164635d6587ebe5e2b51e404e5",
+    "fig_runtime_v2.pdf": "9b537010fd805c39701883cc84824b581be6e03f8b67ff37029ca9eea6753d6c"
   },
-  "parent_manuscript_commit": "30d6cd0ebc41e86deaf86bbe3c5f1e9f80f909b4",
-  "methods_inputs_results_and_six_vector_figures_unchanged": true,
+  "parent_manuscript_commit": "c8fa6a933fb3e6dad604c480efb3127c5c6f7b79",
   "main_exposition_changed": true,
   "new_experiments_claimed": false,
   "reproduction_scope": "README.md and ARTIFACT_AVAILABILITY.txt; Regular-paper supplement, not a claim of EAB completeness",
   "internal_reviews_or_personal_COI_files_included": false,
   "CMT_submitted_by_this_publication": false,
   "revision_scope": {
-    "consistent_short_title_case_headings": true,
-    "IEEE_small_caps_preserved": true,
-    "main_source_Overleaf_compatible": true,
-    "abstract_exact_user_v9_text": true,
-    "abstract_characters": 1540,
-    "contribution_and_section_roadmaps_clarified": true,
-    "authorship_and_AI_declaration_unchanged": true,
-    "core_equations_unchanged": true,
-    "empirical_table_values_and_all_seven_displayed_equations_unchanged": true,
-    "implementation_details_preserved_in_unchanged_TC2_TC3": true,
-    "figure_percentage_axes_and_captions_aligned": true,
-    "numerical_results_method_inputs_and_six_vector_figures_unchanged": true,
-    "new_experiments_or_independent_subagent_review_claimed": false
+    "six_figures_redrawn_as_vector_PDF_and_editable_SVG": true,
+    "15_tables_restyled": true,
+    "plot_inputs_identical_to_frozen_public_archive": true,
+    "all_curves_points_intervals_and_23_timings_retained": true,
+    "primary_results_and_seven_displayed_equations_unchanged": true,
+    "author_abstract_AI_unchanged": true,
+    "no_new_experiments_or_independent_subagent_review_claimed": true,
+    "figure_sources_in_main_source_ZIP": "figure_source/",
+    "four_original_evidence_archives_unchanged": true
   },
-  "authorship_changed": false
+  "authorship_changed": false,
+  "methods_inputs_and_results_unchanged": true
 }

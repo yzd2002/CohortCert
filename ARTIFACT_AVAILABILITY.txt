@@ -1,13 +1,3 @@
-CohortCert v11 public manuscript and reproducibility material
+Public supplementary material includes executable analysis scripts, original method and audit sources, frozen inputs for the principal CPU studies, data/model manifests, runtime receipts, a Technical Companion, and the current manuscript/source. The main LaTeX source ZIP also includes the current vector figures, editable SVGs, redraw code and frozen plotting inputs. README.md provides reproduction commands, checksums, dependencies, external-input requirements and the scope of reproduction. The material is accessible without login.
 
-paper/ contains the current eight-author main PDF and complete LaTeX source plus the separate Technical Companion PDF/source. authors.csv and preferred-citation in CITATION.cff identify the current manuscript authors. The first four share first authorship; Jiexin Zheng and Cong Wang are corresponding authors. The software citation retains the original seven-author fixed evidence identity.
-
-The four original evidence archives are unchanged: fast_analysis.zip, method_sources.zip, study_A_identity_addendum.zip and final_diagnostics.zip. They provide executable analysis, original method/control/audit sources, fixed principal CPU-study inputs, closed MAST audits, finite arithmetic checks and saved runtime receipts. README.md documents commands, tested environments, external inputs and limits. READING_GUIDE.md is explanatory and introduces no new measurement.
-
-The main PDF links the public repository and states the fixed evidence commit. PAPER_ARTIFACT_BINDING.json and release checksums bind the current main paper, companion, sources and archives. Historical snapshots and receipts keep their original identities. Existing licenses/provider notices remain in force. Model weights, provider text corpora and every historical raw trace are not bundled. This Regular-paper supplement does not assert EAB-complete clean-machine reproduction. Internal reviews and personal submission declarations are not public artifacts.
-
-The v8 reader-first revision introduces the task, worked example, data units and online loop before the formal optimization. The Technical Companion retains full derivations and now includes the complete detailed result account in TC5. No empirical input, numerical result or method source is changed.
-
-The v10 release keeps the authors' exact replacement abstract, unifies headings, clarifies the reading route and supplies an Overleaf-compatible root main.tex. Mathematical results and experimental evidence are unchanged.
-
-The v11 release keeps the authors' exact replacement abstract, unifies headings, clarifies the reading route and supplies an Overleaf-compatible root main.tex. Mathematical results and experimental evidence are unchanged.
+CohortCert v12: current manuscript and companion with vector-display sources. The four original evidence archives are unchanged. Reproduction scope and external-input requirements remain as described in README.md.
